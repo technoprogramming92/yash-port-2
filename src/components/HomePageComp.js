@@ -21,7 +21,7 @@ const Details = ({ type, info }) => {
         {/* <span className="capitalize font-medium text-[#b6b1b1] xs:text-sm sm:ml-1">
           {time} | {place}
         </span> */}
-        <p className="font-medium w-full md:text-sm sm:ml-1 text-[20px]">
+        <p className="font-medium w-full md:text-sm sm:ml-1 text-[20px] sm:text-justify">
           {info}
         </p>
       </motion.div>
@@ -40,18 +40,18 @@ function HomePageComp() {
         Everything You Need for Hassle-Free Tax Filing
       </h2>
 
-      <p className="w-[75%] relative mt-12 font-medium md:text-base sm:text-[20px] xs:text-xs text-[20px] sm:mx-0">
+      <p className="w-[75%] mx-auto relative mt-12 font-medium md:text-base sm:text-sm xs:text-xs text-2xl">
         Stress-Free Tax Services, From Start to Finish When it comes to taxes, I
         provide an end-to-end solution so you can relax. Here&apos;s how I make
         the process seamless and professional.
       </p>
-      <p class="w-[75%] relative mt-12 font-medium md:text-base sm:text-[20px] xs:text-xs text-[20px] sm:mx-0">
+      <p class="w-[75%] mx-auto relative mt-12 font-medium md:text-base sm:text-sm xs:text-xs text-2xl">
         Here&apos;s how I make the process seamless and professional:
       </p>
 
       <div className="w-[75%] mx-auto relative mt-12" ref={ref}>
         <motion.div
-          className="absolute left-8 top-0 w-[4px] h-full bg-[#f5f5f5] origin-top md:w-[2px] md:left-[25px] xs:left-[15px]"
+          className="absolute left-9 top-0 w-[4px] h-full bg-[#f5f5f5] origin-top md:w-[2px] md:left-[30px] xs:left-[20px]"
           style={{ scaleY: scrollYProgress }}
         />
 
