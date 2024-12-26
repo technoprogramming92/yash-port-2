@@ -2,12 +2,12 @@ import React, { useRef } from "react";
 import { motion, useScroll } from "framer-motion";
 import Liicon from "./Liicon";
 
-const Details = ({ position, company, companyLink, time, address, work }) => {
+const Details = ({ position, company, time, work }) => {
   const ref = useRef(null);
   return (
     <li
       ref={ref}
-      className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between md:w-[80%] "
+      className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between md:w-[80%] sm:ml-6"
     >
       <Liicon reference={ref} />
       <motion.div
@@ -17,16 +17,12 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
       >
         <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">
           {position}&nbsp;
-          <a
-            href={companyLink}
-            target="_blank"
-            className="text-[#eb6e00] capitalize"
-          >
-            @{company}
+          <a target="_blank" className="text-[#eb6e00] capitalize">
+            {company}
           </a>
         </h3>
         <span className="capitalize font-medium text-[#b6b1b1] xs:text-sm ">
-          {time} | {address}
+          {time}
         </span>
         <p className="font-medium w-full md:text-sm ">{work}</p>
       </motion.div>
@@ -52,58 +48,44 @@ function Experience() {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            position="Software Engineer"
-            company="Google"
-            time="2022-Present"
-            companyLink="www.google.com"
-            address="Mountain View, CA"
-            work=" Worked on a team responsible for developing new features for Google's 
-            search engine, including improving the accuracy and relevance of search results and 
-            developing new tools for data analysis and visualization."
+            position="Tax Senior"
+            company="@Escalon"
+            time="Feb 2022 - Dec 2024"
+            work="Prepared and reviewed corporate tax returns with precision and compliance.
+Identified tax-saving opportunities and optimized tax returns for maximum benefits.
+Managed tax filing processes, including monitoring statuses (accepted, rejected,
+transmitted) and re-filing rejected returns.
+Collaborated with CPAs and clients to gather required documents and resolve
+discrepancies."
           />
 
           <Details
-            position="Software Engineer"
-            company="Google"
-            time="2022-Present"
-            companyLink="www.google.com"
-            address="Mountain View, CA"
-            work=" Worked on a team responsible for developing new features for Google's 
-            search engine, including improving the accuracy and relevance of search results and 
-            developing new tools for data analysis and visualization."
+            position="Freelance Tax Preparer"
+            company=" "
+            time="Sep 2021 - Jan 2022"
+            work="Independently prepared and filed individual and corporate tax returns.
+Provided personalized tax solutions and addressed client-specific requirements."
           />
 
           <Details
-            position="Software Engineer"
-            company="Google"
-            time="2022-Present"
-            companyLink="www.google.com"
-            address="Mountain View, CA"
-            work=" Worked on a team responsible for developing new features for Google's 
-            search engine, including improving the accuracy and relevance of search results and 
-            developing new tools for data analysis and visualization."
+            position="Senior Tax Associate"
+            company="@Entigrity Offshore Staffing"
+            time="Mar 2019 - Aug 2021"
+            work="Reviewed and finalized tax returns, ensuring accuracy and compliance with IRS
+guidelines.
+Communicated with clients to obtain missing documents and clarify tax-related
+queries.
+Supervised junior associates and provided guidance on tax preparation processes.
+"
           />
 
           <Details
-            position="Software Engineer"
-            company="Google"
-            time="2022-Present"
-            companyLink="www.google.com"
-            address="Mountain View, CA"
-            work=" Worked on a team responsible for developing new features for Google's 
-            search engine, including improving the accuracy and relevance of search results and 
-            developing new tools for data analysis and visualization."
-          />
-
-          <Details
-            position="Software Engineer"
-            company="Google"
-            time="2022-Present"
-            companyLink="www.google.com"
-            address="Mountain View, CA"
-            work=" Worked on a team responsible for developing new features for Google's 
-            search engine, including improving the accuracy and relevance of search results and 
-            developing new tools for data analysis and visualization."
+            position="Tax Associate"
+            company="@Entigrity Offshore Staffing"
+            time="Oct 2017 - Oct 2018"
+            work="Prepared individual and corporate tax returns, developing a strong foundation in U.S.
+taxation.
+Assisted in analyzing tax issues and recommending solutions to clients."
           />
         </ul>
       </div>
