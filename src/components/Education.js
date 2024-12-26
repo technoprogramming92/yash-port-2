@@ -2,12 +2,12 @@ import React, { useRef } from "react";
 import { motion, useScroll } from "framer-motion";
 import Liicon from "./Liicon";
 
-const Details = ({ type, time, place, info }) => {
+const Details = ({ type, time, info }) => {
   const ref = useRef(null);
   return (
     <li
       ref={ref}
-      className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between md:w-[80%]"
+      className="my-8 first:mt-0 last:mb-0 ml-44 sm:ml-9 flex flex-col items-center justify-between md:w-[80%]"
     >
       <Liicon reference={ref} />
       <motion.div
@@ -19,7 +19,7 @@ const Details = ({ type, time, place, info }) => {
           {type}
         </h3>
         <span className="capitalize font-medium text-[#b6b1b1] xs:text-sm">
-          {time} | {place}
+          {time}
         </span>
         <p className="font-medium w-full md:text-sm">{info}</p>
       </motion.div>
@@ -45,27 +45,17 @@ function Education() {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            type="Bachelor Of Science In Computer Science"
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-Intelligence."
+            type="Enrolled Agent Certification"
+            time="2022"
+            info="Certified by the Internal
+Revenue Service (IRS)"
           />
 
           <Details
-            type="Bachelor Of Science In Computer Science"
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-Intelligence."
-          />
-
-          <Details
-            type="Bachelor Of Science In Computer Science"
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-Intelligence."
+            type="Bachelor of Commerce in
+Accounting & Finance"
+            time="2017"
+            info="Gujarat University"
           />
         </ul>
       </div>
