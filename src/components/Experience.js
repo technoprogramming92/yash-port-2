@@ -21,7 +21,14 @@ const Details = ({ position, company, time, work }) => {
       >
         <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">
           {position}&nbsp;
-          <a target="_blank" className="text-[#eb6e00] capitalize">
+          <a
+            target="_blank"
+            className={`text-[#eb6e00] capitalize ${
+              position === "last" || position === "secondLast"
+                ? "sm:text-[15px]"
+                : ""
+            }`}
+          >
             {company}
           </a>
         </h3>
