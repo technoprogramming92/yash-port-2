@@ -25,7 +25,7 @@ const Details = ({ position, company, time, work }) => {
             target="_blank"
             className={`text-[#eb6e00] capitalize ${
               position === "last" || position === "secondLast"
-                ? "sm:text-[15px]"
+                ? "sm:!text-[15px]"
                 : ""
             }`}
           >
