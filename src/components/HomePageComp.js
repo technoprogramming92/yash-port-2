@@ -21,7 +21,7 @@ const Details = ({ type, info }) => {
         {/* <span className="capitalize font-medium text-[#b6b1b1] xs:text-sm sm:ml-1">
           {time} | {place}
         </span> */}
-        <p className="font-medium w-full md:text-sm sm:ml-1 text-[20px] sm:text-justify">
+        <p className="font-medium w-full md:text-sm sm:ml-1 text-[20px]">
           {info}
         </p>
       </motion.div>
@@ -40,12 +40,12 @@ function HomePageComp() {
         Everything You Need for Hassle-Free Tax Filing
       </h2>
 
-      <p className="w-[75%] mx-auto relative mt-12 font-medium md:text-base sm:text-sm xs:text-xs text-2xl sm:mx-0">
+      <p className="w-[75%] relative mt-12 font-medium md:text-base sm:text-[20px] xs:text-xs text-[20px] sm:mx-0">
         Stress-Free Tax Services, From Start to Finish When it comes to taxes, I
         provide an end-to-end solution so you can relax. Here&apos;s how I make
         the process seamless and professional.
       </p>
-      <p class="w-[75%] mx-auto relative mt-12 font-medium md:text-base sm:text-sm xs:text-xs text-2xl sm:mx-0">
+      <p class="w-[75%] relative mt-12 font-medium md:text-base sm:text-[20px] xs:text-xs text-[20px] sm:mx-0">
         Here&apos;s how I make the process seamless and professional:
       </p>
 
