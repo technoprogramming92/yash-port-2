@@ -9,7 +9,7 @@ const Details = ({ position, company, time, work }) => {
       ref={ref}
       className={`my-8 first:mt-0 last:mb-0 w-[60%] ml-44 sm:ml-9 flex flex-col items-center justify-between md:w-[80%] ${
         position === "last" || position === "secondLast"
-          ? "ml-64 sm:!ml-44"
+          ? "ml-64 sm:!ml-72"
           : ""
       }`}
     >
