@@ -40,12 +40,12 @@ function HomePageComp() {
         Everything You Need for Hassle-Free Tax Filing
       </h2>
 
-      <p className="w-[75%] mx-auto relative mt-12 font-medium md:text-base sm:text-sm xs:text-xs text-2xl text-justify">
+      <p className="w-[75%] mx-auto relative mt-12 font-medium md:text-base sm:text-sm xs:text-xs text-2xl text-justify sm:w-[100%]">
         Stress-Free Tax Services, From Start to Finish When it comes to taxes, I
         provide an end-to-end solution so you can relax. Here&apos;s how I make
         the process seamless and professional.
       </p>
-      <p class="w-[75%] mx-auto relative mt-12 font-medium md:text-base sm:text-sm xs:text-xs text-2xl text-justify">
+      <p class="w-[75%] mx-auto relative mt-12 font-medium md:text-base sm:text-sm xs:text-xs text-2xl text-justify sm:w-[100%]">
         Here&apos;s how I make the process seamless and professional:
       </p>
 
