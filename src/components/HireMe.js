@@ -1,5 +1,5 @@
 import React from "react";
-import { CircularText } from "./Icons";
+import { CircularTax, CircularText } from "./Icons";
 import Link from "next/link";
 
 function HireMe() {

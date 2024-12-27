@@ -45,7 +45,7 @@ function Education() {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            type="Enrolled Agent Certification"
+            type="Enrolled Agent By IRS"
             time="2022"
             info="Certified by the Internal
 Revenue Service (IRS)"
