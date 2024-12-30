@@ -8,7 +8,6 @@ import article3 from "../../public/images/articles/tax-article-3.jpg";
 import Layout from "@/components/Layout";
 import MiniArticle from "@/components/MiniArticle";
 import TransitionEffect from "@/components/TransitionEffect";
-
 function articles() {
   return (
     <>
@@ -28,7 +27,7 @@ function articles() {
               title="What if you can't pay your taxes?"
               summary="If you can’t pay your taxes, don’t panic - The IRS offers payment alternatives if taxpayers can’t pay what they owe in full. But remember one thing, to qualify for that plans, first of all you must have filed your tax return on time. Below are the Tax Payment options."
               time="3 min read"
-              link="https://www.linkedin.com/pulse/what-you-cant-pay-your-taxes-yash-shah/?trackingId=HqaHPjgXSfS0MH61s2Rl8A%3D%3D"
+              link="/article1"
               img={article1}
             />
 
