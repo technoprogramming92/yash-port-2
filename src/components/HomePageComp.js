@@ -7,7 +7,7 @@ const Details = ({ type, info }) => {
   return (
     <li
       ref={ref}
-      className="-mt-5 first:mt-0 last:mb-0 ml-44 sm:ml-6 flex flex-col items-center justify-between md:w-[80%]"
+      className="my-0 first:mt-0 last:mb-0 ml-44 sm:ml-6 flex flex-col items-center justify-between md:w-[80%]"
     >
       <Liicon reference={ref} />
       <motion.div
@@ -35,8 +35,8 @@ function HomePageComp() {
     offset: ["start end", "center start"],
   });
   return (
-    <div className="my-64">
-      <h2 className="font-bold text-5xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">
+    <div className="my-0">
+      <h2 className="font-bold text-5xl mb-10 w-full text-center md:text-6xl xs:text-4xl md:mb-16">
         Everything You Need for Hassle-Free Tax Filing
       </h2>
 

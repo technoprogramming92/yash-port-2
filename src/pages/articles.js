@@ -2,9 +2,9 @@ import React from "react";
 import Head from "next/head";
 import AnimatedText from "@/components/AnimatedText";
 import FeaturedArticle from "@/components/FeaturedArticle";
-import article1 from "../../public/images/articles/pagination component in reactjs.jpg";
-import article2 from "../../public/images/articles/create loading screen in react js.jpg";
-import article3 from "../../public/images/articles/form validation in reactjs using custom react hook.png";
+import article1 from "../../public/images/articles/tax-article-1.jpg";
+import article2 from "../../public/images/articles/tax-article-2.jpg";
+import article3 from "../../public/images/articles/tax-article-3.jpg";
 import Layout from "@/components/Layout";
 import MiniArticle from "@/components/MiniArticle";
 import TransitionEffect from "@/components/TransitionEffect";
@@ -25,21 +25,26 @@ function articles() {
           />
           <ul className="!text-[#f5f5f5] grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
             <FeaturedArticle
-              title="Build A Custom Pagination Component In Reactjs From Scratch"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch. 
-Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
-              time="9 min read"
-              link="www.google.com"
+              title="What if you can't pay your taxes?"
+              summary="If you can’t pay your taxes, don’t panic - The IRS offers payment alternatives if taxpayers can’t pay what they owe in full. But remember one thing, to qualify for that plans, first of all you must have filed your tax return on time. Below are the Tax Payment options."
+              time="3 min read"
+              link="https://www.linkedin.com/pulse/what-you-cant-pay-your-taxes-yash-shah/?trackingId=HqaHPjgXSfS0MH61s2Rl8A%3D%3D"
               img={article1}
             />
 
             <FeaturedArticle
-              title="Build A Custom Pagination Component In Reactjs From Scratch"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch. 
-Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
+              title="Form W-8 BEN: Important to know about this for non-US residents who generate income from USA."
+              summary="Generally US government taxes non-residents for income sourced out of USA at 30%. But if....."
               time="9 min read"
-              link="www.google.com"
+              link="https://www.linkedin.com/pulse/what-form-w-8-ben-important-know-non-us-residents-who-yash-shah/?trackingId=HqaHPjgXSfS0MH61s2Rl8A%3D%3D"
               img={article2}
+            />
+            <FeaturedArticle
+              title="What is Disregarded Entity?"
+              summary="Disregarded entities are those business entities which are separated from its owners but everything of the disregarded entity flows through the owner for the US tax purposes. So, the disregarded entity is a pass-through entity only for the tax purpose."
+              time="9 min read"
+              link="https://www.linkedin.com/pulse/what-disregarded-entity-yash-shah/?trackingId=HqaHPjgXSfS0MH61s2Rl8A%3D%3D"
+              img={article3}
             />
           </ul>
           <h2 className="font-bold !text-[#f5f5f5] text-4xl w-full text-center my-16 mt-32">
