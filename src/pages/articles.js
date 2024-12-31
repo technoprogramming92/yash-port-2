@@ -42,7 +42,7 @@ function articles() {
               title="What is Disregarded Entity?"
               summary="Disregarded entities are those business entities which are separated from its owners but everything of the disregarded entity flows through the owner for the US tax purposes. So, the disregarded entity is a pass-through entity only for the tax purpose."
               time="9 min read"
-              link="https://www.linkedin.com/pulse/what-disregarded-entity-yash-shah/?trackingId=HqaHPjgXSfS0MH61s2Rl8A%3D%3D"
+              link="/article3"
               img={article3}
             />
           </ul>
