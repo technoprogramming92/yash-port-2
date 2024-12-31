@@ -40,7 +40,7 @@ function article2() {
           <h1 className="text-xl mt-6 font-bold">Purpose of W-8 BEN form:</h1>
           <p className="mt-6">Purpose of W-8 BEN form:</p>
 
-          <ul className="mt-6 list-disc">
+          <ul className="mt-6 list-disc sm:!list-disc">
             <li>Interest (including certain original issue discount (OID);</li>
             <li>Dividends;</li>
             <li>Rents;</li>
