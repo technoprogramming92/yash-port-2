@@ -3,7 +3,7 @@ import Link from "next/link";
 import Logo from "./Logo";
 import { useRouter } from "next/router";
 import {
-  LinkedinIcon,
+  LinkedinIcon2,
   InstagramIcon2,
   YouTubeIcon2,
   WhatsappIcon,
@@ -113,7 +113,7 @@ function NavBar() {
             whileTap={{ scale: 0.9 }}
             className="w-6 mx-3"
           >
-            <LinkedinIcon />
+            <LinkedinIcon2 className="w-30 h-30 sm:w-25 sm:h-25" />
           </motion.a>
           <motion.a
             href="https://youtube.com/@ea_yash_shah?si=KZ5v5hCSE8IQX27g"
@@ -188,7 +188,7 @@ function NavBar() {
               whileTap={{ scale: 0.9 }}
               className="w-6 mx-3 sm:mx-1"
             >
-              <LinkedinIcon />
+              <LinkedinIcon2 className="w-30 h-30 sm:w-25 sm:h-25" />
             </motion.a>
             <motion.a
               href="https://youtube.com/@ea_yash_shah?si=KZ5v5hCSE8IQX27g"

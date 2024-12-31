@@ -21,6 +21,30 @@ export const LinkedinIcon = ({ className, ...rest }) => (
   </svg>
 );
 
+export const LinkedinIcon2 = ({ className, ...otherProps }) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+      className={className}
+      {...otherProps}
+    >
+      <rect width="512" height="512" fill="#0077b5" rx="15%"></rect>
+      <circle cx="142" cy="138" r="37" fill="#fff"></circle>
+      <path
+        stroke="#fff"
+        strokeWidth="66"
+        d="M244 194v198M142 194v198"
+        fill="none"
+      ></path>
+      <path
+        d="M276 282c0-20 13-40 36-40 24 0 33 18 33 45v105h66V279c0-61-32-89-76-89-34 0-51 19-59 32"
+        fill="#fff"
+      ></path>
+    </svg>
+  );
+};
+
 export const InstagramIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
