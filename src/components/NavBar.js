@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 import {
   LinkedinIcon,
   InstagramIcon2,
-  YouTubeIcon,
+  YouTubeIcon2,
   WhatsappIcon,
 } from "./Icons";
 import { motion } from "framer-motion";
@@ -122,7 +122,7 @@ function NavBar() {
             whileTap={{ scale: 0.9 }}
             className="w-6 mx-3"
           >
-            <YouTubeIcon />
+            <YouTubeIcon2 />
           </motion.a>
           <motion.a
             href="https://wa.me/918000315213?text=I%20would%20like%20to%20know%20more%20about%20your%20services.
@@ -197,7 +197,7 @@ function NavBar() {
               whileTap={{ scale: 0.9 }}
               className="w-6 mx-3 sm:mx-1"
             >
-              <YouTubeIcon />
+              <YouTubeIcon2 />
             </motion.a>
             <motion.a
               href="https://wa.me/918000315213?text=I%20would%20like%20to%20know%20more%20about%20your%20services.
