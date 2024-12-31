@@ -35,17 +35,17 @@ function HomePageComp() {
     offset: ["start end", "center start"],
   });
   return (
-    <div className="my-0">
-      <h2 className="font-bold text-5xl mb-10 w-full text-center md:text-6xl xs:text-4xl md:mb-16">
+    <div className="mb-32">
+      <h2 className="font-bold text-5xl mb-10 w-full text-center md:text-6xl xs:text-4xl md:mb-16 sm:!mt-5">
         Everything You Need for Hassle-Free Tax Filing
       </h2>
 
-      <p className="w-[75%] mx-auto relative mt-12 font-medium md:text-base sm:text-sm xs:text-xs text-2xl">
+      <p className="w-[75%] sm:!w-[100%] mx-auto relative mt-12 font-medium md:text-base sm:text-sm xs:text-xs text-2xl">
         Stress-Free Tax Services, From Start to Finish When it comes to taxes, I
         provide an end-to-end solution so you can relax. Here&apos;s how I make
         the process seamless and professional.
       </p>
-      <p class="w-[75%] mx-auto relative mt-12 font-medium md:text-base sm:text-sm xs:text-xs text-2xl">
+      <p class="w-[75%] sm:!w-[100%] sm:!text-center mx-auto relative mt-12 font-medium md:text-base sm:text-sm xs:text-xs text-2xl">
         Here&apos;s how I make the process seamless and professional:
       </p>
 
