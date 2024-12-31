@@ -20,8 +20,8 @@ function about() {
         <TransitionEffect />
       </AnimatePresence>
 
-      <main className="flex w-full flex-col items-center justify-center">
-        <Layout className="pt-16 sm:!overflow-x-hidden">
+      <main className="flex w-full flex-col items-center justify-center sm:!overflow-x-hidden">
+        <Layout className="pt-16">
           <AnimatedText
             text="Passion Fuels Purpose!"
             className="mb-16 !text-[#f5f5f5] lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
