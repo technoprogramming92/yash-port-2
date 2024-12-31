@@ -35,7 +35,7 @@ function articles() {
               title="Form W-8 BEN: Important to know about this for non-US residents who generate income from USA."
               summary="Generally US government taxes non-residents for income sourced out of USA at 30%. But if....."
               time="9 min read"
-              link="https://www.linkedin.com/pulse/what-form-w-8-ben-important-know-non-us-residents-who-yash-shah/?trackingId=HqaHPjgXSfS0MH61s2Rl8A%3D%3D"
+              link="/article2"
               img={article2}
             />
             <FeaturedArticle
