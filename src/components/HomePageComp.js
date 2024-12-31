@@ -35,7 +35,7 @@ function HomePageComp() {
     offset: ["start end", "center start"],
   });
   return (
-    <div className="mb-32">
+    <div className="mb-56">
       <h2 className="font-bold text-5xl mb-10 w-full text-center md:text-6xl xs:text-4xl md:mb-16 sm:!mt-5">
         Everything You Need for Hassle-Free Tax Filing
       </h2>
