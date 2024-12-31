@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
       <TransitionEffect layoutEffect={false} />
       <main className="flex items-center text-[#f5f5f5] w-full">
-        <Layout className="pt-0 md:pt-16 sm:pt-8">
+        <Layout className="pt-0 md:pt-16 sm:pt-8 sm:!overflow-x-hidden">
           <div className="flex items-center justify-between w-full lg:flex-col">
             <div className="w-1/2 md:!w-full sm:!w-full">
               <Image

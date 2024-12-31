@@ -21,7 +21,7 @@ function about() {
       </AnimatePresence>
 
       <main className="flex w-full flex-col items-center justify-center">
-        <Layout className="pt-16">
+        <Layout className="pt-16 sm:!overflow-x-hidden">
           <AnimatedText
             text="Passion Fuels Purpose!"
             className="mb-16 !text-[#f5f5f5] lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
