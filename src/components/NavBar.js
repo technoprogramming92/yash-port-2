@@ -6,7 +6,7 @@ import {
   LinkedinIcon,
   InstagramIcon,
   YouTubeIcon,
-  FacebookIcon,
+  WhatsappIcon,
 } from "./Icons";
 import { motion } from "framer-motion";
 const CustomLink = ({ href, title, className = "" }) => {
@@ -98,7 +98,7 @@ function NavBar() {
 
         <nav className="flex items-center justify-center flex-wrap">
           <motion.a
-            href="www.example.com"
+            href="https://www.instagram.com/ea_yash_shah/"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -107,7 +107,7 @@ function NavBar() {
             <InstagramIcon />
           </motion.a>
           <motion.a
-            href="www.example.com"
+            href="https://www.linkedin.com/in/yash-shah-ea-6b404820a/"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -116,7 +116,7 @@ function NavBar() {
             <LinkedinIcon />
           </motion.a>
           <motion.a
-            href="www.example.com"
+            href="https://youtube.com/@ea_yash_shah?si=KZ5v5hCSE8IQX27g"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -125,13 +125,14 @@ function NavBar() {
             <YouTubeIcon />
           </motion.a>
           <motion.a
-            href="www.example.com"
+            href="https://wa.me/918000315213?text=I%20would%20like%20to%20know%20more%20about%20your%20services.
+"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             className="w-6 ml-3"
           >
-            <FacebookIcon />
+            <WhatsappIcon />
           </motion.a>
         </nav>
       </div>
@@ -172,7 +173,7 @@ function NavBar() {
 
           <nav className="flex items-center justify-center flex-wrap mt-2">
             <motion.a
-              href="www.example.com"
+              href="https://www.instagram.com/ea_yash_shah/"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -181,7 +182,7 @@ function NavBar() {
               <InstagramIcon />
             </motion.a>
             <motion.a
-              href="www.example.com"
+              href="https://www.linkedin.com/in/yash-shah-ea-6b404820a/"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -190,7 +191,7 @@ function NavBar() {
               <LinkedinIcon />
             </motion.a>
             <motion.a
-              href="www.example.com"
+              href="https://youtube.com/@ea_yash_shah?si=KZ5v5hCSE8IQX27g"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -199,13 +200,14 @@ function NavBar() {
               <YouTubeIcon />
             </motion.a>
             <motion.a
-              href="www.example.com"
+              href="https://wa.me/918000315213?text=I%20would%20like%20to%20know%20more%20about%20your%20services.
+"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
               className="w-6 ml-3 sm:mx-1"
             >
-              <FacebookIcon />
+              <WhatsappIcon />
             </motion.a>
           </nav>
         </motion.div>
