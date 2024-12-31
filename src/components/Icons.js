@@ -133,12 +133,13 @@ export const YouTubeIcon = ({ className, ...rest }) => (
 );
 
 export const YouTubeIcon2 = (props) => {
-  const { size = 30, color = "#fe0000", ...otherProps } = props;
+  const { size = 30, color = "#fe0000", className, ...otherProps } = props;
 
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width={size}
+      className={className}
       height={(size / 448) * 313.6}
       viewBox="0 0 448 313.6"
       {...otherProps}
