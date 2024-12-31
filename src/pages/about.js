@@ -51,7 +51,7 @@ function about() {
               </p>
             </div>
             <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-[#f5f5f5] bg-light p-8 xl:col-span-4 md:order-1 md:!col-span-8">
-              <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-[#f5f5f5] sm:!py-4" />
+              <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-[#f5f5f5]" />
               <Image
                 src={profilePic}
                 alt="Yash Shah"
