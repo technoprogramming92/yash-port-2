@@ -41,7 +41,7 @@ function contact() {
                   id="name"
                   name="name"
                   placeholder="Enter your name"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#eb6e00] sm:px-3 sm:py-2 xs:px-2 xs:py-1 text-white"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#eb6e00] sm:px-3 sm:py-2 xs:px-2 xs:py-1 text-black"
                   required
                 />
               </div>
@@ -49,7 +49,7 @@ function contact() {
               <div>
                 <label
                   htmlFor="email"
-                  className="block text-sm font-medium text-light mb-1"
+                  className="block text-sm font-medium text-white mb-1"
                 >
                   Email ID
                 </label>
@@ -58,7 +58,7 @@ function contact() {
                   id="email"
                   name="email"
                   placeholder="Enter your email"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#eb6e00] sm:px-3 sm:py-2 xs:px-2 xs:py-1 text-light"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#eb6e00] sm:px-3 sm:py-2 xs:px-2 xs:py-1 text-black"
                   required
                 />
               </div>
@@ -75,7 +75,7 @@ function contact() {
                   name="query"
                   rows="4"
                   placeholder="Enter your query here in brief"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#eb6e00] sm:px-3 sm:py-2 sm:rows-3 xs:px-2 xs:py-1 xs:rows-2 text-light"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#eb6e00] sm:px-3 sm:py-2 sm:rows-3 xs:px-2 xs:py-1 xs:rows-2 text-black"
                   required
                 ></textarea>
               </div>
