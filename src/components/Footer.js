@@ -13,6 +13,7 @@ function Footer() {
           <Link
             href="https://ignitax.com/"
             className="underline underline-offset-2"
+            target="_blank"
           >
             IGNITAX
           </Link>
