@@ -69,7 +69,7 @@ export default function Home() {
           </div>
           <HomePageComp />
         </Layout>
-        <HireMe />
+        {/* <HireMe /> */}
 
         <div className="absolute right-8 bottom-8 inline-block w-24 md:hidden">
           <Image src={lightBulb} alt="Yash Shah" className="w-full h-auto" />
