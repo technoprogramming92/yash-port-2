@@ -46,7 +46,7 @@ function articles() {
               img={article3}
             />
           </ul>
-          <h2 className="font-bold !text-[#f5f5f5] text-4xl w-full text-center my-16 mt-32">
+          {/* <h2 className="font-bold !text-[#f5f5f5] text-4xl w-full text-center my-16 mt-32">
             All Articles
           </h2>
           <ul>
@@ -91,7 +91,7 @@ function articles() {
               date="Dec 23, 2024"
               link="www.example.com"
             />
-          </ul>
+          </ul> */}
         </Layout>
       </main>
     </>
