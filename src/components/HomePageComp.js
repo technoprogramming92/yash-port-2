@@ -15,7 +15,7 @@ const Details = ({ type, info }) => {
         whileInView={{ y: 0 }}
         transition={{ duration: 0.5, type: "spring" }}
       >
-        <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">
+        <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg text-[#eb6e00]">
           {type}
         </h3>
         {/* <span className="capitalize font-medium text-[#b6b1b1] xs:text-sm sm:ml-1">
