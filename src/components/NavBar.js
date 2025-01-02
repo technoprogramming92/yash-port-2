@@ -92,6 +92,12 @@ function NavBar() {
           <CustomLink
             href="/articles"
             title="Articles"
+            className="mx-4 text-[#f5f5f5]"
+          />
+
+          <CustomLink
+            href="/contact"
+            title="Contact"
             className="ml-4 text-[#f5f5f5]"
           />
         </nav>
@@ -166,6 +172,13 @@ function NavBar() {
             <CustomMobileLink
               href="/articles"
               title="Articles"
+              className="text-[#000000]"
+              toggle={handleClick}
+            />
+
+            <CustomMobileLink
+              href="/contact"
+              title="Contact"
               className="text-[#000000]"
               toggle={handleClick}
             />
