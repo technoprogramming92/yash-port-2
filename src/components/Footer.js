@@ -18,7 +18,7 @@ function Footer() {
           </Link>
         </div>
         <Link
-          href="https://ignitax.com/contact"
+          href="https://wa.me/918000315213?text=I%20would%20like%20to%20know%20more%20about%20your%20services."
           target={"_blank"}
           className="underline underline-offset-2"
         >
