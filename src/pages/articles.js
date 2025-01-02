@@ -17,7 +17,8 @@ function articles() {
       </Head>
       <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden sm:!overflow-x-hidden">
-        <Layout>
+        <Layout className="!p-10 !pt-1">
+          {/*remove class for default padding */}
           <AnimatedText
             text="EYS Articles"
             className="!text-[#f5f5f5] mb-16 pt-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
