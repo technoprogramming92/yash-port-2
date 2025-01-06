@@ -2,7 +2,7 @@ import Head from "next/head";
 import AnimatedText from "@/components/AnimatedText";
 import Layout from "@/components/Layout";
 import Image from "next/image";
-import profilePic from "../../public/images/profile/yash-profile-pic.png";
+import profilePic from "../../public/images/profile/yash_about.png";
 import { AnimatedNumbers } from "@/components/AnimatedNumbers";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
