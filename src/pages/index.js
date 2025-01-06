@@ -20,7 +20,7 @@ export default function Home() {
       <main className="flex items-center text-[#f5f5f5] w-full sm:!overflow-x-hidden">
         <Layout className="pt-0 md:pt-16 sm:pt-8">
           <div className="flex items-center justify-between w-full lg:flex-col">
-            <div className="!p-20 w-1/2 md:!w-full sm:!w-full">
+            <div className="!p-20 w-1/2 md:!w-full sm:!p-6 sm:!w-full">
               <Image
                 src={profilePic}
                 alt="Yash Shah"
