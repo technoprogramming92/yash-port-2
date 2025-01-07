@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Layout from "../components/Layout";
-import profilePic from "../../public/images/profile/yash5_r.png";
+import profilePic from "../../public/images/profile/yash6.png";
 import AnimatedText from "../components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
@@ -20,7 +20,7 @@ export default function Home() {
       <main className="flex items-center text-[#f5f5f5] w-full sm:!overflow-x-hidden">
         <Layout className="pt-0 md:pt-16 sm:pt-8">
           <div className="flex items-center justify-between w-full lg:flex-col">
-            <div className="!p-20 w-1/2 md:!w-full sm:!p-6 sm:!w-full">
+            <div className="!p-7 !px-24 w-[50%] md:!w-full sm:!p-6 sm:!w-full">
               <Image
                 src={profilePic}
                 alt="Yash Shah"
