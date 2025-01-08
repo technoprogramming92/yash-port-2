@@ -6,7 +6,7 @@ import AnimatedText from "../components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
 import HireMe from "@/components/HireMe";
-import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
+import lightBulb from "../../public/images/profile/home doodle.png";
 import TransitionEffect from "@/components/TransitionEffect";
 import HomePageComp from "@/components/HomePageComp";
 export default function Home() {
