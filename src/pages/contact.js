@@ -89,13 +89,15 @@ function contact() {
             </form>
           </div>
           <div className="w-full mt-20 -mb-60">
+            {/*
+             */}
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.727652619619!2d72.53775797436674!3d22.997040317282316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85480247891b%3A0x7b58ed03d93c3e66!2sIgnitax!5e0!3m2!1sen!2sin!4v1736329707639!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.727611811469!2d72.53775657436681!3d22.997041817282263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e853c387b2353%3A0xd47d05de86d46b51!2sSiddhi%20Vinayak%20Arcade!5e0!3m2!1sen!2sin!4v1736334779577!5m2!1sen!2sin"
               className="w-full h-[600px] border-0 mb-0"
               allowFullScreen="true"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-            />
+            ></iframe>
           </div>
         </Layout>
       </main>
