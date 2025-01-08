@@ -93,12 +93,10 @@ function contact() {
               <h2 className="text-2xl font-bold text-[#eb6e00] mb-6 md:text-xl xs:text-lg">
                 Location
               </h2>
-              <div className="sm:!w-2/5 justify-center items-center">
+              <div className="w-full sm:w-[300px] md:w-[400px] lg:w-[500px]">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.727652619619!2d72.53775797436674!3d22.997040317282316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85480247891b%3A0x7b58ed03d93c3e66!2sIgnitax!5e0!3m2!1sen!2sin!4v1736329707639!5m2!1sen!2sin"
-                  width={500}
-                  height={450}
-                  style={{ border: 0 }}
+                  className="w-full h-[450px] border-0"
                   allowFullScreen=""
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
