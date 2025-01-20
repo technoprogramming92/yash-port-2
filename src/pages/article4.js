@@ -30,10 +30,10 @@ function article4() {
             height={100} // Replace with the actual height of the image
           />
 
-          <p className="mt-6">
+          <h1 className="mt-6 text-2xl">
             <strong>Amend</strong> the tax Return or <strong>Supersede</strong>{" "}
             the tax Return? Let&apos;s Clear It Up!
-          </p>
+          </h1>
           <p className="mt-6">
             A very common question that is often raised when making changes in a
             tax return is &quot;when to file an amended return and when to
@@ -49,6 +49,9 @@ function article4() {
             information. In both cases, the original return has already been
             filed and accepted by the IRS.
           </p>
+          <h1 className="text-xl mt-6 font-bold">
+            Understanding Superseding Returns:
+          </h1>
           <p className="mt-6">
             Consider a superseding return as a chance for a &quot;redo&quot;
             before the time runs out. To file a superseding return, all you need

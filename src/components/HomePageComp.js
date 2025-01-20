@@ -36,7 +36,7 @@ function HomePageComp() {
   });
   return (
     <div className="mb-32 sm:!mb-80">
-      <h2 className="font-bold text-5xl mb-10 w-full text-center md:text-6xl xs:text-4xl md:mb-16 sm:!mt-5 sm:text-justify">
+      <h2 className="font-bold text-5xl mb-10 w-full text-center md:text-6xl xs:text-4xl md:mb-16 sm:!mt-5">
         Everything You Need for Hassle-Free Tax Filing
       </h2>
 
