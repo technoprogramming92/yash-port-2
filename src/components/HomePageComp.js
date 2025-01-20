@@ -45,7 +45,7 @@ function HomePageComp() {
         provide an end-to-end solution so you can relax. Here&apos;s how I make
         the process seamless and professional.
       </p>
-      <p class="w-[75%] sm:!w-[100%] sm:!text-justify mx-auto relative mt-12 font-medium md:text-base sm:text-sm xs:text-xs text-xl ">
+      <p class="w-[75%] sm:!w-[100%] sm:!text-justify mx-auto relative mt-12 font-medium md:text-base sm:!text-sm xs:text-xs text-xl ">
         Here&apos;s how I make the process seamless and professional:
       </p>
 
