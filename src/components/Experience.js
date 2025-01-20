@@ -28,7 +28,7 @@ const Details = ({ position, company, time, work }) => {
         <span className="capitalize font-medium text-[#b6b1b1] xs:text-sm ">
           {time}
         </span>
-        <p className="font-medium w-full md:text-sm ">{work}</p>
+        <p className="font-medium w-full md:text-sm sm:!text-justify">{work}</p>
       </motion.div>
     </li>
   );
