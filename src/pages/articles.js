@@ -5,6 +5,7 @@ import FeaturedArticle from "@/components/FeaturedArticle";
 import article1 from "../../public/images/articles/tax-article-1.jpg";
 import article2 from "../../public/images/articles/tax-article-2.jpg";
 import article3 from "../../public/images/articles/tax-article-3.jpg";
+import article4 from "../../public/images/articles/tax-article-4.png";
 import Layout from "@/components/Layout";
 import MiniArticle from "@/components/MiniArticle";
 import TransitionEffect from "@/components/TransitionEffect";
@@ -45,6 +46,14 @@ function articles() {
               time="9 min read"
               link="/article3"
               img={article3}
+            />
+
+            <FeaturedArticle
+              title="Amend the Return or Supersede the Return? Let’s Clear It Up!"
+              summary="A very common question that is often raised when making changes in a tax return is “when to file an amended return and when to supersede the return”? Let's clear things up by making the distinction between them."
+              time="2 min read"
+              link="/article4"
+              img={article4}
             />
           </ul>
           {/* <h2 className="font-bold !text-[#f5f5f5] text-4xl w-full text-center my-16 mt-32">

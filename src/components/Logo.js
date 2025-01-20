@@ -1,12 +1,13 @@
 import React from "react";
-import Link from "next/link";
-import { motion } from "framer-motion";
-
-const MotionLink = motion(Link);
+// import Link from "next/link";
+// import { motion } from "framer-motion";
+import Image from "next/image";
+import logo from "../../public/images/profile/eyslogo.png";
+// const MotionLink = motion(Link);
 function Logo() {
   return (
     <div className="flex items-center justify-center mt-2">
-      <MotionLink
+      {/* <MotionLink
         href="/"
         className="w-16 h-16 bg-[#eb6e00] text-[#f5f5f5] flex items-center justify-center rounded-full text-2xl font-bold"
         whileHover={{
@@ -24,7 +25,8 @@ function Logo() {
         }}
       >
         EYS
-      </MotionLink>
+      </MotionLink> */}
+      <Image src={logo} alt="logo" width={100} height={100} />
     </div>
   );
 }
