@@ -61,7 +61,7 @@ export default function Home() {
                 text="EA Yash Shah"
                 className="!text-6xl !text-left !text-[#eb6e00] xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
-              <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
+              <p className="my-4 text-base font-medium md:text-sm sm:!text-justify sm:text-xs">
                 I am Yash Shah, an Enrolled Agent with a deep understanding of
                 tax laws and financial planning. My passion lies in simplifying
                 the complexities of taxes and providing personalized solutions
