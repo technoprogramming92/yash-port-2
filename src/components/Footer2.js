@@ -66,22 +66,22 @@ const Footer2 = () => {
             <ul>
               <li>
                 <a href="#" className="hover:underline">
-                  Web Development
+                  Tax Consulting
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:underline">
-                  SEO Optimization
+                  Tax Preparation
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:underline">
-                  Marketing
+                  Tax Filing
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:underline">
-                  Consulting
+                  Solve IRS Issues
                 </a>
               </li>
             </ul>
