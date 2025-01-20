@@ -102,7 +102,7 @@ const Footer2 = () => {
               </li>
               <li>
                 <a
-                  href="https://maps.app.goo.gl/QECjK7jBx2knMBEb9"
+                  href="https://maps.app.goo.gl/e5Prb59wHu5V9CgK9"
                   target="_blank"
                   className="hover:underline"
                 >
