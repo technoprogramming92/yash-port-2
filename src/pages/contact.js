@@ -12,7 +12,7 @@ function contact() {
       </Head>
       <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden sm:!overflow-x-hidden bg-black">
-        <Layout className="sm:!p-8">
+        <Layout className="sm:!p-8 sm:!pt-16">
           <div className="flex flex-col items-center justify-center w-full max-w-lg p-8 rounded-lg border-2 border-white backdrop-blur-md shadow-lg sm:max-w-md xs:max-w-sm mx-auto sm:!mb-4">
             <h2 className="text-2xl font-bold text-[#eb6e00] mb-6 md:text-xl xs:text-lg">
               Contact
