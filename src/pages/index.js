@@ -51,7 +51,7 @@ export default function Home() {
                 text="Tax Strategist"
                 className="!text-6xl !text-left !text-[#eb6e00] xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
-              <p className="my-4 text-xl text-justify font-medium md:text-sm sm:!text-justify sm:text-xs">
+              <p className="my-4 text-xl text-justify font-medium md:text-sm sm:!text-justify sm:text-xs sm:!px-1">
                 With a deep understanding of U.S. tax laws, Working on a
                 contractual basis with CPAs during tax season to turn piles of
                 numbers into perfectly filed returns. Think of me as your go-to
