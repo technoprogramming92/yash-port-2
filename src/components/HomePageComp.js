@@ -42,8 +42,7 @@ function HomePageComp() {
 
       <p className="w-[75%] sm:!w-[100%] mx-auto relative mt-12 font-medium md:text-base sm:!text-sm xs:text-xs text-xl sm:text-justify sm:!px-1">
         Stress-Free Tax Services, From Start to Finish When it comes to taxes, I
-        provide an end-to-end solution so you can relax. Here&apos;s how I make
-        the process seamless and professional.
+        provide an end-to-end solution so you can relax.
       </p>
       <p class="w-[75%] sm:!w-[100%] sm:!text-justify mx-auto relative mt-12 font-medium md:text-base sm:!text-sm xs:text-xs text-xl sm:!px-1">
         Here&apos;s how I make the process seamless and professional:
