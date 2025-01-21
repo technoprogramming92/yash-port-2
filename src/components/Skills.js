@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Skill = ({ name, x, y }) => {
   return (
     <motion.div
-      className="flex items-center justify-center rounded-full font-bold bg-[#faf9f6] text-dark py-3 px-6 shadow-lg shadow-[#fff5ee]cursor-pointer text-xl absolute lg:py-2 lg:px-4 md:text-sm md:py-1.5 md:px-3 xs:bg-transparent xs:font-bold xs:text-[#f5f5f5]"
+      className="flex items-center justify-center rounded-full font-bold bg-[#faf9f6] text-dark py-3 px-6 shadow-lg shadow-[#fff5ee] cursor-pointer text-xl absolute lg:py-2 lg:px-4 md:text-sm md:py-1.5 md:px-3 xs:bg-transparent xs:font-bold xs:text-[#f5f5f5] xs:shadow-none xs:!py-5 sm:!py-5"
       whileHover={{ scale: 1.05 }}
       initial={{ x: 0, y: 0 }}
       whileInView={{ x: x, y: y }}
@@ -21,7 +21,7 @@ function Skills() {
       <h2 className="font-bold text-8xl mt-64 w-full text-center md:text-6xl md:mt-32 sm:!text-3xl">
         Core Competencies
       </h2>
-      <div className="w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight lg:h-[80vh] sm:h-[60vh] xs:h-[50vh] lg:!bg-circularLightLg md:!bg-circularDarkMg sm:!bg-circularDarkSm">
+      <div className="w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight lg:h-[80vh] sm:h-[60vh] xs:h-[50vh] lg:!bg-circularLightLg md:!bg-circularDarkMd sm:!bg-circularDarkSm xs:!bg-circularDarkSm">
         <motion.div
           className="flex items-center justify-center rounded-full font-bold text-xl bg-[#faf9f6] text-dark p-8 shadow-lg shadow-[#fff5ee]cursor-pointer lg:p-6 md:p-4 xs:text-xs xs:p-2"
           whileHover={{ scale: 1.05 }}

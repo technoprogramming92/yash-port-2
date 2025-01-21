@@ -43,7 +43,7 @@ export const theme = {
         "repeating-radial-gradient(rgba(255,255,255,0.5) 2px,#1b1b1b 6px,#1b1b1b 60px)",
 
       circularDarkSm:
-        "repeating-radial-gradient(rgba(255,255,255,0.5) 2px,#1b1b1b 4px,#1b1b1b 40px)",
+        "repeating-radial-gradient(circle, rgba(255, 255, 255) 2px, #000000 6px, #000000 35px)",
     },
   },
 };
