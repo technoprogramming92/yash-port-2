@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Skill = ({ name, x, y }) => {
   return (
     <motion.div
-      className="flex items-center justify-center rounded-full font-bold bg-[#faf9f6] text-dark py-3 px-6 shadow-lg shadow-[#fff5ee] cursor-pointer text-xl absolute lg:py-2 lg:px-4 md:text-sm md:py-1.5 md:px-3 xs:bg-transparent xs:font-bold xs:text-[#f5f5f5] xs:shadow-none xs:!py-5 sm:!py-5"
+      className="flex items-center justify-center rounded-full font-bold bg-[#faf9f6] text-dark py-3 px-6 shadow-lg shadow-[#fff5ee] cursor-pointer text-xl absolute lg:py-2 lg:px-4 md:text-sm md:py-1.5 md:px-3 xs:bg-transparent xs:font-bold xs:text-[#f5f5f5] xs:shadow-none xs:!my-9 sm:!my-9"
       whileHover={{ scale: 1.05 }}
       initial={{ x: 0, y: 0 }}
       whileInView={{ x: x, y: y }}
