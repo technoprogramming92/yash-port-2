@@ -1,5 +1,5 @@
 import React from "react";
-// import Link from "next/link";
+import Link from "next/link";
 // import { motion } from "framer-motion";
 import Image from "next/image";
 import logo from "../../public/images/profile/eyslogo.png";
@@ -26,7 +26,9 @@ function Logo() {
       >
         EYS
       </MotionLink> */}
-      <Image src={logo} alt="logo" width={100} height={100} />
+      <Link href="/">
+        <Image src={logo} alt="logo" width={100} height={100} />
+      </Link>
     </div>
   );
 }
