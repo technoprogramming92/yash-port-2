@@ -44,12 +44,16 @@ export default function Home() {
             </div>
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Licensed Enrolled Agent"
+                text="EA Yash Shah"
                 className="!text-6xl !text-left !text-[#f5f5f5] xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <AnimatedText
+                text="Licensed Enrolled Agent"
+                className="!text-4xl !text-left !text-[#f5f5f5] xl:!text-4xl lg:!text-center lg:!text-4xl md:!text-4xl sm:!text-lg"
+              />
+              <AnimatedText
                 text="Tax Strategist"
-                className="!text-6xl !text-left !text-[#eb6e00] xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
+                className="!text-4xl !text-left !text-[#eb6e00] xl:!text-4xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-xl"
               />
               <p className="my-4 text-xl text-justify font-medium md:text-sm sm:!text-justify sm:text-xs sm:!px-1">
                 With a deep understanding of U.S. tax laws, Working on a
