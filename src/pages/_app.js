@@ -1,7 +1,7 @@
 import "@/styles/globals.css";
 import { Montserrat } from "next/font/google";
 import Head from "next/head";
-
+import Script from "next/script";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer2";
 import { AnimatePresence } from "framer-motion";
@@ -17,19 +17,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         {/* Google Analytics Script */}
-      <script
-        strategy="afterInteractive"
-        src="https://www.googletagmanager.com/gtag/js?id=G-7931PYGTY1"
-      />
-      <script id="google-analytics" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-7931PYGTY1');
-        `}
-      </script>
+      
 
       {/* Render the Page Component */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -57,6 +45,19 @@ export default function App({ Component, pageProps }) {
       <main
         className={`${montserrat.variable} font-mont bg-light w-full min-h-screen`}
       >
+        <Script
+        strategy="afterInteractive"
+        src="https://www.googletagmanager.com/gtag/js?id=G-7931PYGTY1"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-7931PYGTY1');
+        `}
+      </Script>
         <NavBar></NavBar>
         <AnimatePresence mode="wait" layoutEffect={false}>
           <Component key={router.asPath} {...pageProps} />
