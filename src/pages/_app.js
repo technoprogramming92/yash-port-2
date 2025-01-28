@@ -1,7 +1,7 @@
 import "@/styles/globals.css";
 import { Montserrat } from "next/font/google";
 import Head from "next/head";
-import Script from "next/script";
+
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer2";
 import { AnimatePresence } from "framer-motion";
@@ -17,11 +17,11 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         {/* Google Analytics Script */}
-      <Script
+      <script
         strategy="afterInteractive"
         src="https://www.googletagmanager.com/gtag/js?id=G-7931PYGTY1"
       />
-      <Script id="google-analytics" strategy="afterInteractive">
+      <script id="google-analytics" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
@@ -29,7 +29,7 @@ export default function App({ Component, pageProps }) {
 
           gtag('config', 'G-7931PYGTY1');
         `}
-      </Script>
+      </script>
 
       {/* Render the Page Component */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
