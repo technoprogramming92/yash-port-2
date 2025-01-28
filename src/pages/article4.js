@@ -6,19 +6,21 @@ import Link from "next/link";
 // import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 import Head from "next/head";
+import Script from "next/script";
+
 function article4() {
   //   const FramerImage = motion(Image);
   return (
     <>
       <Head>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-7931PYGTY1"></script>
-<script>
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-7931PYGTY1"></Script>
+<Script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-7931PYGTY1');
-</script>
+</Script>
         <title>Yash Shah | Article Page</title>
         <meta name="description" content="My Description" />
       </Head>

@@ -9,18 +9,20 @@ import article4 from "../../public/images/articles/tax-article-4.png";
 import Layout from "@/components/Layout";
 import MiniArticle from "@/components/MiniArticle";
 import TransitionEffect from "@/components/TransitionEffect";
+import Script from "next/script";
+
 function articles() {
   return (
     <>
       <Head>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-7931PYGTY1"></script>
-<script>
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-7931PYGTY1"></Script>
+<Script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-7931PYGTY1');
-</script>
+</Script>
         <title>Yash Shah | Article Page</title>
         <meta name="description" content="My Description" />
       </Head>
