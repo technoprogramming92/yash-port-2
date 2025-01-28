@@ -11,6 +11,14 @@ function article1() {
   return (
     <>
       <Head>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-7931PYGTY1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7931PYGTY1');
+</script>
         <title>Yash Shah | Article Page</title>
         <meta name="description" content="My Description" />
       </Head>
