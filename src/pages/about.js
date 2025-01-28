@@ -58,7 +58,7 @@ function about() {
       name="twitter:description"
       content="EA Yash Shah provides certified tax consulting and IRS form assistance, including 1040, 5472, 1120, and more. Trusted tax services near you."
     />
-    <!-- on page seo ends  -->
+    
     <meta charset="utf-8" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
