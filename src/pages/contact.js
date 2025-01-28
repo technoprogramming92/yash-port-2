@@ -2,19 +2,12 @@ import React from "react";
 import Head from "next/head";
 import TransitionEffect from "@/components/TransitionEffect";
 import Layout from "@/components/Layout";
-import Script from "next/script"
+
 function contact() {
   return (
     <>
       <Head>
-      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-7931PYGTY1"></Script>
-<Script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-7931PYGTY1');
-</Script>
+      
         <title>Yash Shah | Contact Us</title>
         <meta name="description" content="My Description" />
       </Head>
