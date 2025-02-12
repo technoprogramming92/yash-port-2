@@ -29,6 +29,11 @@ const Footer2 = () => {
                 </Link>
               </li>
               <li>
+                <Link href="/services" className="hover:underline">
+                  Services
+                </Link>
+              </li>
+              <li>
                 <Link href="/articles" className="hover:underline">
                   Articles
                 </Link>
@@ -73,22 +78,22 @@ const Footer2 = () => {
             <h4 className="text-lg font-semibold mb-4">Services</h4>
             <ul>
               <li>
-                <a href="#" className="hover:underline">
+                <a href="/services" className="hover:underline">
                   Tax Consulting
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <a href="/services" className="hover:underline">
                   Tax Preparation
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <a href="/services" className="hover:underline">
                   Tax Filing
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <a href="/services" className="hover:underline">
                   Solve IRS Issues
                 </a>
               </li>

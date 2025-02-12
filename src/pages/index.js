@@ -9,52 +9,57 @@ import lightBulb from "../../public/images/profile/home doodle.png";
 import TransitionEffect from "@/components/TransitionEffect";
 import HomePageComp from "@/components/HomePageComp";
 
-
 export default function Home() {
   return (
     <>
       <Head>
-      <title>Tax Preparation Services in NYC by Licensed Enrolled Agent | EA Yash Shah</title>
-    <meta name="description"
-      content="Get expert tax preparation and consulting in NYC and Brooklyn with EA Yash Shah. Affordable, professional, and hassle-free services!"
-    />
-    <meta name="keyword"
-      content="Independent business tax preparers near new york city, Affordable independent business tax preparers near new york, Cheap independent business tax preparers near new york, Free independent business tax preparers near new york, Best independent business tax preparers near new york, Tax consultant New York, Tax and accounting services, Tax preparation NYC, Tax preparation brooklyn, Tax consultant brooklyn, tax return us, ea agent, enrolled agent new york, enrolled agent brooklyn, Independent business tax preparers near brooklyn city, Affordable independent business tax preparers near brooklyn, Cheap independent business tax preparers near brooklyn, Free independent business tax preparers near brooklyn, Best independent business tax preparers brookllyn, enrolled agent near me, nyc tax return, brooklyn tax return, certified enrolled agent"
-    />
-    <meta name="robots" content="index,follow" />
-    <meta name="contact" content="+91 8000 315213" />
-    <meta name="distribution" content="Global" />
-    <meta name="rating" content="General" />
-    <meta name="revisit-after" content="1 days" />
-    <meta name="geo.placename" content="United States" />
-    <meta name="geo.placename" content="New York, United States" />
-    <meta name="author" content="Yash Shah, eayashshah@gmail.com" />
-    <meta name="og:title"
-      content="Tax Preparation Services in NYC by Licensed Enrolled Agent | EA Yash Shah"
-    />
-    <meta name="og:description"
-      content="Get expert tax preparation and consulting in NYC and Brooklyn with EA Yash Shah. Affordable, professional, and hassle-free services!"
-    />
-    <meta property="og:image"
-      content=""
-    />
-    <meta name="og:email" content="eayashshah@gmail.com" />
-    <meta name="og:phone_number" content="+91 8000 315213" />
-    <meta name="og:url" content="https://www.eayashshah.com/" />
-    <meta name="twitter:card" content="" />
-    <meta name="twitter:site" content="" />
-    <meta name="twitter:creator" content="" />
-    <meta name="twitter:title"
-      content="Tax Preparation Services in NYC by Licensed Enrolled Agent | EA Yash Shah"
-    />
-    <meta name="twitter:description"
-      content="Get expert tax preparation and consulting in NYC and Brooklyn with EA Yash Shah. Affordable, professional, and hassle-free services!"
-    />
-    
-    <meta charset="utf-8" />
+        <title>
+          Tax Preparation Services in NYC by Licensed Enrolled Agent | EA Yash
+          Shah
+        </title>
+        <meta
+          name="description"
+          content="Get expert tax preparation and consulting in NYC and Brooklyn with EA Yash Shah. Affordable, professional, and hassle-free services!"
+        />
+        <meta
+          name="keyword"
+          content="Independent business tax preparers near new york city, Affordable independent business tax preparers near new york, Cheap independent business tax preparers near new york, Free independent business tax preparers near new york, Best independent business tax preparers near new york, Tax consultant New York, Tax and accounting services, Tax preparation NYC, Tax preparation brooklyn, Tax consultant brooklyn, tax return us, ea agent, enrolled agent new york, enrolled agent brooklyn, Independent business tax preparers near brooklyn city, Affordable independent business tax preparers near brooklyn, Cheap independent business tax preparers near brooklyn, Free independent business tax preparers near brooklyn, Best independent business tax preparers brookllyn, enrolled agent near me, nyc tax return, brooklyn tax return, certified enrolled agent"
+        />
+        <meta name="robots" content="index,follow" />
+        <meta name="contact" content="+91 8000 315213" />
+        <meta name="distribution" content="Global" />
+        <meta name="rating" content="General" />
+        <meta name="revisit-after" content="1 days" />
+        <meta name="geo.placename" content="United States" />
+        <meta name="geo.placename" content="New York, United States" />
+        <meta name="author" content="Yash Shah, eayashshah@gmail.com" />
+        <meta
+          name="og:title"
+          content="Tax Preparation Services in NYC by Licensed Enrolled Agent | EA Yash Shah"
+        />
+        <meta
+          name="og:description"
+          content="Get expert tax preparation and consulting in NYC and Brooklyn with EA Yash Shah. Affordable, professional, and hassle-free services!"
+        />
+        <meta property="og:image" content="" />
+        <meta name="og:email" content="eayashshah@gmail.com" />
+        <meta name="og:phone_number" content="+91 8000 315213" />
+        <meta name="og:url" content="https://www.eayashshah.com/" />
+        <meta name="twitter:card" content="" />
+        <meta name="twitter:site" content="" />
+        <meta name="twitter:creator" content="" />
+        <meta
+          name="twitter:title"
+          content="Tax Preparation Services in NYC by Licensed Enrolled Agent | EA Yash Shah"
+        />
+        <meta
+          name="twitter:description"
+          content="Get expert tax preparation and consulting in NYC and Brooklyn with EA Yash Shah. Affordable, professional, and hassle-free services!"
+        />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <TransitionEffect layoutEffect={false} />
       <main className="flex items-center text-[#f5f5f5] w-full sm:!overflow-x-hidden">
@@ -63,7 +68,7 @@ export default function Home() {
             <div className="!p-7 !px-24 w-[50%] md:!w-full sm:!p-6 sm:!w-full">
               <Image
                 src={profilePic}
-                alt="Yash Shah"
+                alt="EA Yash Shah"
                 className="w-full h-auto md:inline-block md:w-full"
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
@@ -107,11 +112,34 @@ export default function Home() {
             </div>
           </div>
           <HomePageComp />
+          <div className="fixed right-8 bottom-8 inline-block w-24 md:hidden">
+            <Image
+              src={lightBulb}
+              alt="independent business tax preparers near new york"
+              className="w-full h-auto"
+            />
+          </div>
+          <p className="text-[#eb6e00] text-center font-bold">
+            People also search for :{" "}
+          </p>
+          <p className="text-justify">
+            Independent business tax preparers near new york city | Affordable
+            independent business tax preparers near new york | Cheap independent
+            business tax preparers near new york | Free independent business tax
+            preparers near new york | Best independent business tax preparers
+            near new york | Tax consultant New York | Tax and accounting
+            services | Tax preparation NYC | Tax preparation brooklyn | Tax
+            consultant brooklyn | tax return us | ea agent | enrolled agent new
+            york | enrolled agent brooklyn | Independent business tax preparers
+            near brooklyn city | Affordable independent business tax preparers
+            near brooklyn | Cheap independent business tax preparers near
+            brooklyn | Free independent business tax preparers near brooklyn |
+            Best independent business tax preparers brookllyn | enrolled agent
+            near me | nyc tax return | brooklyn tax return | certified enrolled
+            agent
+          </p>
         </Layout>
         {/* <HireMe /> */}
-        <div className="fixed right-8 bottom-8 inline-block w-24 md:hidden">
-          <Image src={lightBulb} alt="Yash Shah" className="w-full h-auto" />
-        </div>
       </main>
     </>
   );

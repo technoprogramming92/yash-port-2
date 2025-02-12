@@ -15,53 +15,50 @@ function articles() {
   return (
     <>
       <Head>
-      <title>US Tax Planning & Filing Articles | EA Yash Shah</title>
-    <meta
-      name="description"
-      content="Get the latest tax tips and resources, including expert advice on US tax return filing, tax planning, and professional services."
-    />
-    <meta name="keyword"
-      content="Tax services,Tax tips ,tax filing in NYC,tax filing in brooklyn,tax planning,file us tax return online,us tax return,tax return united states,Tax consultant New York,Tax consultant brooklyn,irs enrolled agent,income tax in the united states,taxation in the united states,taxes in the usa,what is ea,what is an enrolled agent,tax consultant near me,tax advisor near me,tax consultant,tax filing near me,tax assistance,professional tax return filing,tax preparer, efile,return of income,tax filing,tax season 2025,tax planner,tax planner in nyc,tax planner in brooklyn,tax prep services in nyc,tax professional in nyc,tax professional in brooklyn,tax professional,tax preparer in nyc,tax prep services in brooklyn,tax preparer in brooklyn"
-    />
-    <meta name="robots" content="index,follow" />
-    <meta name="contact" content="+91 8000 315213" />
-    <meta name="distribution" content="Global" />
-    <meta name="rating" content="General" />
-    <meta name="revisit-after" content="1 days" />
-    <meta name="geo.placename" content="United States" />
-    <meta name="geo.placename" content="New York, United States" />
-    <meta name="author" content="Yash Shah, eayashshah@gmail.com" />
-    <meta
-      name="og:title"
-      content="US Tax Planning & Filing Articles | EA Yash Shah"
-    />
-    <meta
-      name="og:description"
-      content="Get the latest tax tips and resources, including expert advice on US tax return filing, tax planning, and professional services."
-    />
-    <meta
-      property="og:image"
-      content=""
-    />
-    <meta name="og:email" content="eayashshah@gmail.com" />
-    <meta name="og:phone_number" content="+91 8000 315213" />
-    <meta name="og:url" content="https://www.eayashshah.com/articles" />
-    <meta name="twitter:card" content="" />
-    <meta name="twitter:site" content="" />
-    <meta name="twitter:creator" content="" />
-  <meta
-      name="twitter:title"
-      content="US Tax Planning & Filing Articles | EA Yash Shah"
-    />
-    <meta
-      name="twitter:description"
-      content="Get the latest tax tips and resources, including expert advice on US tax return filing, tax planning, and professional services."
-    />
- 
-    <meta charset="utf-8" />
+        <title>US Tax Planning & Filing Articles | EA Yash Shah</title>
+        <meta
+          name="description"
+          content="Get the latest tax tips and resources, including expert advice on US tax return filing, tax planning, and professional services."
+        />
+        <meta
+          name="keyword"
+          content="Tax services,Tax tips ,tax filing in NYC,tax filing in brooklyn,tax planning,file us tax return online,us tax return,tax return united states,Tax consultant New York,Tax consultant brooklyn,irs enrolled agent,income tax in the united states,taxation in the united states,taxes in the usa,what is ea,what is an enrolled agent,tax consultant near me,tax advisor near me,tax consultant,tax filing near me,tax assistance,professional tax return filing,tax preparer, efile,return of income,tax filing,tax season 2025,tax planner,tax planner in nyc,tax planner in brooklyn,tax prep services in nyc,tax professional in nyc,tax professional in brooklyn,tax professional,tax preparer in nyc,tax prep services in brooklyn,tax preparer in brooklyn"
+        />
+        <meta name="robots" content="index,follow" />
+        <meta name="contact" content="+91 8000 315213" />
+        <meta name="distribution" content="Global" />
+        <meta name="rating" content="General" />
+        <meta name="revisit-after" content="1 days" />
+        <meta name="geo.placename" content="United States" />
+        <meta name="geo.placename" content="New York, United States" />
+        <meta name="author" content="Yash Shah, eayashshah@gmail.com" />
+        <meta
+          name="og:title"
+          content="US Tax Planning & Filing Articles | EA Yash Shah"
+        />
+        <meta
+          name="og:description"
+          content="Get the latest tax tips and resources, including expert advice on US tax return filing, tax planning, and professional services."
+        />
+        <meta property="og:image" content="" />
+        <meta name="og:email" content="eayashshah@gmail.com" />
+        <meta name="og:phone_number" content="+91 8000 315213" />
+        <meta name="og:url" content="https://www.eayashshah.com/articles" />
+        <meta name="twitter:card" content="" />
+        <meta name="twitter:site" content="" />
+        <meta name="twitter:creator" content="" />
+        <meta
+          name="twitter:title"
+          content="US Tax Planning & Filing Articles | EA Yash Shah"
+        />
+        <meta
+          name="twitter:description"
+          content="Get the latest tax tips and resources, including expert advice on US tax return filing, tax planning, and professional services."
+        />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden sm:!overflow-x-hidden">
@@ -149,6 +146,28 @@ function articles() {
               link="www.example.com"
             />
           </ul> */}
+          <br />
+          <br />
+          <br />
+          <br />
+          <p className="text-[#eb6e00] text-center font-bold">
+            People also search for :{" "}
+          </p>
+          <p className="text-justify">
+            Tax services | Tax tips | tax filing in NYC | tax filing in brooklyn
+            | tax planning | file us tax return online | us tax return | tax
+            return united states | Tax consultant New York | Tax consultant
+            brooklyn | irs enrolled agent | income tax in the united states |
+            taxation in the united states | taxes in the usa | what is ea | what
+            is an enrolled agent | tax consultant near me | tax advisor near me
+            | tax consultant | tax filing near me | tax assistance |
+            professional tax return filing | tax preparer | efile | return of
+            income | tax filing | tax season 2025 | tax planner |tax planner in
+            nyc | tax planner in brooklyn | tax prep services in nyc | tax
+            professional in nyc | tax professional in brooklyn | tax
+            professional | tax preparer in nyc | tax prep services in brooklyn |
+            tax preparer in brooklyn
+          </p>
         </Layout>
       </main>
     </>

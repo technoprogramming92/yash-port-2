@@ -10,59 +10,54 @@ import Education from "@/components/Education";
 import TransitionEffect from "@/components/TransitionEffect";
 import { AnimatePresence } from "framer-motion";
 
-
 function about() {
   return (
     <>
       <Head>
-      <title>Tax Return Forms 1040, 5472, and More | EA Yash Shah</title>
-    <meta
-      name="description"
-      content="EA Yash Shah provides certified tax consulting and IRS form assistance, including 1040, 5472, 1120, and more. Trusted tax services near you."
-    />
-    <meta
-      name="keyword"
-      content="form 1065 form, form 1065 instructions,what is 1099s form, irs form 6765, 80ttb deduction for senior citizens, sec 80ttb of income tax act, Form W-4,w 8ben e instructions, form 990, 1040 form, tax paper 1040, 5471 form, 1120 forms, 1065 form, 1040 form, irs form 1040, 1040 schedule c, form 1040 instructions, form 1040 tax return, 1040 tax document, form 5472, fincen"
-    />
-    <meta name="robots" content="index,follow" />
-    <meta name="contact" content="+91 8000 315213" />
-    <meta name="distribution" content="Global" />
-    <meta name="rating" content="General" />
-    <meta name="revisit-after" content="1 days" />
-    <meta name="geo.placename" content="United States" />
-    <meta name="geo.placename" content="New York, United States" />
-    <meta name="author" content="Yash Shah, eayashshah@gmail.com" />
-    <meta
-      name="og:title"
-      content="Tax Return Forms 1040, 5472, and More | EA Yash Shah"
-    />
-    <meta
-      name="og:description"
-      content="EA Yash Shah provides certified tax consulting and IRS form assistance, including 1040, 5472, 1120, and more. Trusted tax services near you."
-    />
-    <meta
-      property="og:image"
-      content=""
-    />
-    <meta name="og:email" content="eayashshah@gmail.com" />
-    <meta name="og:phone_number" content="+91 8000 315213" />
-    <meta name="og:url" content="https://www.eayashshah.com/about" />
-    <meta name="twitter:card" content="" />
-    <meta name="twitter:site" content="" />
-    <meta name="twitter:creator" content="" />
-    <meta
-      name="twitter:title"
-      content="Tax Return Forms 1040, 5472, and More | EA Yash Shah"
-    />
-    <meta
-      name="twitter:description"
-      content="EA Yash Shah provides certified tax consulting and IRS form assistance, including 1040, 5472, 1120, and more. Trusted tax services near you."
-    />
-    
-    <meta charset="utf-8" />
+        <title>Tax Return Forms 1040, 5472, and More | EA Yash Shah</title>
+        <meta
+          name="description"
+          content="EA Yash Shah provides certified tax consulting and IRS form assistance, including 1040, 5472, 1120, and more. Trusted tax services near you."
+        />
+        <meta
+          name="keyword"
+          content="form 1065 form, form 1065 instructions,what is 1099s form, irs form 6765, 80ttb deduction for senior citizens, sec 80ttb of income tax act, Form W-4,w 8ben e instructions, form 990, 1040 form, tax paper 1040, 5471 form, 1120 forms, 1065 form, 1040 form, irs form 1040, 1040 schedule c, form 1040 instructions, form 1040 tax return, 1040 tax document, form 5472, fincen"
+        />
+        <meta name="robots" content="index,follow" />
+        <meta name="contact" content="+91 8000 315213" />
+        <meta name="distribution" content="Global" />
+        <meta name="rating" content="General" />
+        <meta name="revisit-after" content="1 days" />
+        <meta name="geo.placename" content="United States" />
+        <meta name="geo.placename" content="New York, United States" />
+        <meta name="author" content="Yash Shah, eayashshah@gmail.com" />
+        <meta
+          name="og:title"
+          content="Tax Return Forms 1040, 5472, and More | EA Yash Shah"
+        />
+        <meta
+          name="og:description"
+          content="EA Yash Shah provides certified tax consulting and IRS form assistance, including 1040, 5472, 1120, and more. Trusted tax services near you."
+        />
+        <meta property="og:image" content="" />
+        <meta name="og:email" content="eayashshah@gmail.com" />
+        <meta name="og:phone_number" content="+91 8000 315213" />
+        <meta name="og:url" content="https://www.eayashshah.com/about" />
+        <meta name="twitter:card" content="" />
+        <meta name="twitter:site" content="" />
+        <meta name="twitter:creator" content="" />
+        <meta
+          name="twitter:title"
+          content="Tax Return Forms 1040, 5472, and More | EA Yash Shah"
+        />
+        <meta
+          name="twitter:description"
+          content="EA Yash Shah provides certified tax consulting and IRS form assistance, including 1040, 5472, 1120, and more. Trusted tax services near you."
+        />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <AnimatePresence mode="wait">
         <TransitionEffect />
@@ -140,6 +135,17 @@ function about() {
           <Skills />
           <Experience />
           <Education />
+          <p className="text-[#eb6e00] text-center font-bold">
+            People also search for :{" "}
+          </p>
+          <p className="text-justify">
+            form 1065 form, form 1065 instructions | what is 1099s form | irs
+            form 6765 | 80ttb deduction for senior citizens | sec 80ttb of
+            income tax act | Form W-4 | w 8ben e instructions | form 990 | 1040
+            form | tax paper 1040 | 5471 form | 1120 forms | 1065 form | 1040
+            form | irs form 1040 | 1040 schedule c | form 1040 instructions |
+            form 1040 tax return | 1040 tax document | form 5472 | fincen
+          </p>
         </Layout>
       </main>
     </>
