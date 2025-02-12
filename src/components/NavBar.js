@@ -88,6 +88,11 @@ function NavBar() {
             title="About"
             className="mx-4 text-[#f5f5f5]"
           />
+          <CustomLink
+            href="/services"
+            title="Services"
+            className="mx-4 text-[#f5f5f5]"
+          />
           {/* <CustomLink href="/updates" title="Tax Updates" className='mx-4 text-[#f5f5f5]'/> */}
           <CustomLink
             href="/articles"
