@@ -134,7 +134,7 @@ const Footer2 = () => {
         <div className="border-t border-gray-700 pt-8 text-center text-sm !pb-3">
           <p>
             &copy; 2025 EYS All rights reserved. | Created by{" "}
-            <a href="www.ignitax.com">IGNITAX</a>
+            <a href="https://www.ignitax.com">IGNITAX</a>
           </p>
         </div>
       </div>
