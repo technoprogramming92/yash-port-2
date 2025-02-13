@@ -7,14 +7,53 @@ import Link from "next/link";
 import TransitionEffect from "@/components/TransitionEffect";
 import Head from "next/head";
 
-
 function article1() {
   //   const FramerImage = motion(Image);
   return (
     <>
       <Head>
-      
-        <title>Yash Shah | Article Page</title>
+        <title>What if you can't pay your taxes? | EA Yash Shah</title>
+        <meta
+          name="description"
+          content="If you can’t pay your taxes, don’t panic - The IRS offers payment alternatives if taxpayers can’t pay what they owe in full.Think of me as your go-to tax season sidekick!"
+        />
+        <meta name="keyword" content="" />
+        <meta name="robots" content="index,follow" />
+        <meta name="contact" content="+91 8000 315213" />
+        <meta name="distribution" content="Global" />
+        <meta name="rating" content="General" />
+        <meta name="revisit-after" content="1 days" />
+        <meta name="geo.placename" content="United States" />
+        <meta name="geo.placename" content="New York, United States" />
+        <meta name="author" content="Yash Shah, eayashshah@gmail.com" />
+        <meta
+          name="og:title"
+          content="What if you can't pay your taxes? | EA Yash Shah"
+        />
+        <meta
+          name="og:description"
+          content="If you can’t pay your taxes, don’t panic - The IRS offers payment alternatives if taxpayers can’t pay what they owe in full.Think of me as your go-to tax season sidekick!"
+        />
+        <meta property="og:image" content="" />
+        <meta name="og:email" content="eayashshah@gmail.com" />
+        <meta name="og:phone_number" content="+91 8000 315213" />
+        <meta name="og:url" content="https://www.eayashshah.com/" />
+        <meta name="twitter:card" content="" />
+        <meta name="twitter:site" content="" />
+        <meta name="twitter:creator" content="" />
+        <meta
+          name="twitter:title"
+          content="What if you can't pay your taxes? | EA Yash Shah"
+        />
+        <meta
+          name="twitter:description"
+          content="If you can’t pay your taxes, don’t panic - The IRS offers payment alternatives if taxpayers can’t pay what they owe in full.Think of me as your go-to tax season sidekick!"
+        />
+        {/*  on page seo ends  */}
+        <meta charset="utf-8" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
         <meta name="description" content="My Description" />
       </Head>
       <TransitionEffect />
