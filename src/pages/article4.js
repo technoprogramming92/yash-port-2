@@ -7,15 +7,52 @@ import Link from "next/link";
 import TransitionEffect from "@/components/TransitionEffect";
 import Head from "next/head";
 
-
 function article4() {
   //   const FramerImage = motion(Image);
   return (
     <>
       <Head>
-      
-        <title>Yash Shah | Article Page</title>
-        <meta name="description" content="My Description" />
+        <title>Amend the Return or Supersede the Return? | EA Yash Shah</title>
+        <meta
+          name="description"
+          content="Let's clear things up by making the distinction between : when to file an amended return and when to supersede the return"
+        />
+        <meta
+          name="keyword"
+          content="amended tax return, when to file an amended return, when to supersede the return, supersede the return"
+        />
+        <meta name="robots" content="index,follow" />
+        <meta name="contact" content="+91 8000 315213" />
+        <meta name="distribution" content="Global" />
+        <meta name="rating" content="General" />
+        <meta name="revisit-after" content="1 days" />
+        <meta name="geo.placename" content="United States" />
+        <meta name="geo.placename" content="New York, United States" />
+        <meta name="author" content="Yash Shah, eayashshah@gmail.com" />
+        <meta
+          name="og:title"
+          content="Amend the Return or Supersede the Return? | EA Yash Shah"
+        />
+        <meta
+          name="og:description"
+          content="Let's clear things up by making the distinction between : when to file an amended return and when to supersede the return"
+        />
+        <meta property="og:image" content="" />
+        <meta name="og:email" content="eayashshah@gmail.com" />
+        <meta name="og:phone_number" content="+91 8000 315213" />
+        <meta name="og:url" content="https://www.eayashshah.com/" />
+        <meta name="twitter:card" content="" />
+        <meta name="twitter:site" content="" />
+        <meta name="twitter:creator" content="" />
+        <meta
+          name="twitter:title"
+          content="Amend the Return or Supersede the Return? | EA Yash Shah"
+        />
+        <meta name="twitter:description" content="" />
+        {/* on page seo ends  */}
+        <meta charset="utf-8" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden sm:!overflow-x-hidden">
@@ -119,6 +156,14 @@ function article4() {
               connect
             </Link>{" "}
             and work through them effectively!
+          </p>
+          <p className="text-[#eb6e00] text-center font-bold">
+            People also search for :{" "}
+          </p>
+          <p className="text-justify">
+            amended tax return | when to file an amended return | when to
+            supersede the return | supersede the return | how to amend a tax
+            return | how to supersede the Return
           </p>
         </Layout>
       </main>

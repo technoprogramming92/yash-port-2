@@ -7,48 +7,50 @@ import Link from "next/link";
 import TransitionEffect from "@/components/TransitionEffect";
 import Head from "next/head";
 
-
 function article2() {
   //   const FramerImage = motion(Image);
   return (
     <>
       <Head>
-     
-      <title>What is W-8 BEN? | EA Yash Shah</title>
-    <meta name="description"
-      content="Form W-8 BEN: Important to know about this for non-US residents who generate income from the USA. />
-    <meta name="keyword" 
-    content="description"
-    />
-    <meta name="robots" content="index,follow" />
-    <meta name="contact" content="+91 8000 315213" />
-    <meta name="distribution" content="Global" />
-    <meta name="rating" content="General" />
-    <meta name="revisit-after" content="1 days" />
-    <meta name="geo.placename" content="United States" />
-    <meta name="geo.placename" content="New York, United States" />
-    <meta name="author" content="Yash Shah, eayashshah@gmail.com" />
-    <meta name="og:title"
-      content="What is W-8 BEN? | EA Yash Shah"    />
-    <meta name="og:description"
-      content="Form W-8 BEN: Important to know about this for non-US residents who generate income from the USA."   />
-    <meta property="og:image"
-      content="" />
-    <meta name="og:email" content="eayashshah@gmail.com" />
-    <meta name="og:phone_number" content="+91 8000 315213" />
-    <meta name="og:url" content="https://www.eayashshah.com/" />
-    <meta name="twitter:card" content="" />
-    <meta name="twitter:site" content="" />
-    <meta name="twitter:creator" content="" />
-    <meta name="twitter:title"
-      content="What is W-8 BEN? | EA Yash Shah"  />
-    <meta name="twitter:description"
-      content="Form W-8 BEN: Important to know about this for non-US residents who generate income from the USA."  />
-    {/* on page seo ends  */}
-    <meta charset="utf-8" />
+        <title>What is W-8 BEN? | EA Yash Shah</title>
+        <meta
+          name="description"
+          content="Form W-8 BEN: Important to know about this for non-US residents who generate income from the USA."
+        />
+        <meta
+          name="keyword"
+          content="what is w 8ben form used for, Purpose of W-8 BEN form, who needs to fill out form w-8ben, double taxation avoidance agreement between india and usa, DTAA between India and US, US government taxes non-residents, taxation for non-resident aliens
+          "
+        />
+        <meta name="robots" content="index,follow" />
+        <meta name="contact" content="+91 8000 315213" />
+        <meta name="distribution" content="Global" />
+        <meta name="rating" content="General" />
+        <meta name="revisit-after" content="1 days" />
+        <meta name="geo.placename" content="United States" />
+        <meta name="geo.placename" content="New York, United States" />
+        <meta name="author" content="Yash Shah, eayashshah@gmail.com" />
+        <meta name="og:title" content="What is W-8 BEN? | EA Yash Shah" />
+        <meta
+          name="og:description"
+          content="Form W-8 BEN: Important to know about this for non-US residents who generate income from the USA."
+        />
+        <meta property="og:image" content="" />
+        <meta name="og:email" content="eayashshah@gmail.com" />
+        <meta name="og:phone_number" content="+91 8000 315213" />
+        <meta name="og:url" content="https://www.eayashshah.com/" />
+        <meta name="twitter:card" content="" />
+        <meta name="twitter:site" content="" />
+        <meta name="twitter:creator" content="" />
+        <meta name="twitter:title" content="What is W-8 BEN? | EA Yash Shah" />
+        <meta
+          name="twitter:description"
+          content="Form W-8 BEN: Important to know about this for non-US residents who generate income from the USA."
+        />
+        {/* on page seo ends  */}
+        <meta charset="utf-8" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden sm:!overflow-x-hidden">
@@ -135,6 +137,15 @@ function article2() {
             >
               https://www.irs.gov/pub/irs-trty/india.pdf
             </Link>
+          </p>
+          <p className="text-[#eb6e00] text-center font-bold">
+            People also search for :{" "}
+          </p>
+          <p className="text-justify">
+            what is w 8ben form used for | Purpose of W-8 BEN form | who needs
+            to fill out form w-8ben | double taxation avoidance agreement
+            between india and usa | DTAA between India and US | US government
+            taxes non-residents | taxation for non-resident aliens
           </p>
         </Layout>
       </main>

@@ -17,7 +17,10 @@ function article1() {
           name="description"
           content="If you can’t pay your taxes, don’t panic - The IRS offers payment alternatives if taxpayers can’t pay what they owe in full.Think of me as your go-to tax season sidekick!"
         />
-        <meta name="keyword" content="" />
+        <meta
+          name="keyword"
+          content="irs online payment, direct pay irs, irs payments direct pay, Form 9465 Installment Agreement, How to fill out form 9465 installment agreement, irs installment agreement form, online payment plans, irs payment plan online, paying taxes on a payment plan, How to apply for the Payment plans, Temporarily Delay Collection, Offer in Compromise (OIC), what is form 433-f used for"
+        />
         <meta name="robots" content="index,follow" />
         <meta name="contact" content="+91 8000 315213" />
         <meta name="distribution" content="Global" />
@@ -168,6 +171,17 @@ function article1() {
             >
               yashshahtaxfreelancer@gmail.com
             </Link>
+          </p>
+          <p className="text-[#eb6e00] text-center font-bold">
+            People also search for :{" "}
+          </p>
+          <p className="text-justify">
+            irs online payment | direct pay irs, irs payments direct pay | Form
+            9465 Installment Agreement | How to fill out form 9465 installment
+            agreement | irs installment agreement form | online payment plans,
+            irs payment plan online | paying taxes on a payment plan | How to
+            apply for the Payment plans | Temporarily Delay Collection | Offer
+            in Compromise (OIC) | what is form 433-f used for
           </p>
         </Layout>
       </main>

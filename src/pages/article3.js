@@ -7,16 +7,52 @@ import Link from "next/link";
 import TransitionEffect from "@/components/TransitionEffect";
 import Head from "next/head";
 
-
 function article3() {
-
   //   const FramerImage = motion(Image);
   return (
     <>
       <Head>
-      
-        <title>Yash Shah | Article Page</title>
-        <meta name="description" content="My Description" />
+        <title>What is Disregarded Entity? | EA Yash Shah</title>
+        <meta
+          name="description"
+          content="A disregarded entity is a business entity that is legally separate from its owner but, for U.S. tax purposes, its income and expenses pass through to the owner. This means it functions as a pass-through entity solely for tax purposes."
+        />
+        <meta
+          name="keyword"
+          content="What is Disregarded Entity?, What is Form 8832?, Who needs to file Form 8832?, What is Form 2553?, Who needs to file Form 2553?, How to calculate self-employment tax, self-employment taxes, federal taxes, how to pay disregarded entity's federal taxes"
+        />
+        <meta name="robots" content="index,follow" />
+        <meta name="contact" content="+91 8000 315213" />
+        <meta name="distribution" content="Global" />
+        <meta name="rating" content="General" />
+        <meta name="revisit-after" content="1 days" />
+        <meta name="geo.placename" content="United States" />
+        <meta name="geo.placename" content="New York, United States" />
+        <meta name="author" content="Yash Shah, eayashshah@gmail.com" />
+        <meta
+          name="og:title"
+          content="What is Disregarded Entity? | EA Yash Shah"
+        />
+        <meta
+          name="og:description"
+          content="A disregarded entity is a business entity that is legally separate from its owner but, for U.S. tax purposes, its income and expenses pass through to the owner. This means it functions as a pass-through entity solely for tax purposes."
+        />
+        <meta property="og:image" content="" />
+        <meta name="og:email" content="eayashshah@gmail.com" />
+        <meta name="og:phone_number" content="+91 8000 315213" />
+        <meta name="og:url" content="https://www.eayashshah.com/" />
+        <meta name="twitter:card" content="" />
+        <meta name="twitter:site" content="" />
+        <meta name="twitter:creator" content="" />
+        <meta
+          name="twitter:title"
+          content="What is Disregarded Entity? | EA Yash Shah"
+        />
+        <meta name="twitter:description" content="" />
+        {/* on page seo ends  */}
+        <meta charset="utf-8" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden sm:!overflow-x-hidden">
@@ -105,6 +141,15 @@ function article3() {
             <strong>Self-employment taxes:</strong> As, every transactions of
             disregarded entity will be flowing in the owner’s personal tax
             return, he/she will be liable to pay self-employment taxes.
+          </p>
+          <p className="text-[#eb6e00] text-center font-bold">
+            People also search for :{" "}
+          </p>
+          <p className="text-justify">
+            What is Disregarded Entity? | What is Form 8832? | Who needs to file
+            Form 8832? | What is Form 2553? | Who needs to file Form 2553? | How
+            to calculate self-employment tax | self-employment taxes | federal
+            taxes | how to pay disregarded entity's federal taxes
           </p>
         </Layout>
       </main>
