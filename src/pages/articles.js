@@ -6,6 +6,7 @@ import article1 from "../../public/images/articles/tax-article-1.jpg";
 import article2 from "../../public/images/articles/tax-article-2.jpg";
 import article3 from "../../public/images/articles/tax-article-3.jpg";
 import article4 from "../../public/images/articles/tax-article-4.png";
+import article5 from "../../public/images/articles/tax-article-5.png";
 import Layout from "@/components/Layout";
 import MiniArticle from "@/components/MiniArticle";
 import TransitionEffect from "@/components/TransitionEffect";
@@ -98,6 +99,13 @@ function articles() {
               time="2 min read"
               link="/article4"
               img={article4}
+            />
+            <FeaturedArticle
+              title="Why is a tax organizer so important?"
+              summary="A Tax Organizer is a valuable tool for both tax professionals and taxpayers, making the tax filing process more efficient, accurate, and stress-free."
+              time="2 min read"
+              link="/article5"
+              img={article5}
             />
           </ul>
           {/* <h2 className="font-bold !text-[#f5f5f5] text-4xl w-full text-center my-16 mt-32">
