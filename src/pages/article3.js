@@ -149,7 +149,7 @@ function article3() {
             What is Disregarded Entity? | What is Form 8832? | Who needs to file
             Form 8832? | What is Form 2553? | Who needs to file Form 2553? | How
             to calculate self-employment tax | self-employment taxes | federal
-            taxes | how to pay disregarded entity's federal taxes
+            taxes | how to pay disregarded entity&apos;s federal taxes
           </p>
         </Layout>
       </main>

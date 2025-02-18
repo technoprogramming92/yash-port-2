@@ -12,7 +12,7 @@ function article1() {
   return (
     <>
       <Head>
-        <title>What if you can't pay your taxes? | EA Yash Shah</title>
+        <title>What if you can&apos;t pay your taxes? | EA Yash Shah</title>
         <meta
           name="description"
           content="If you can’t pay your taxes, don’t panic - The IRS offers payment alternatives if taxpayers can’t pay what they owe in full.Think of me as your go-to tax season sidekick!"

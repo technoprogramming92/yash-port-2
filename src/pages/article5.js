@@ -76,7 +76,9 @@ function article5() {
             and stress-free.
           </p>
 
-          <h1 className="text-xl mt-6 font-bold">Here's why it's important:</h1>
+          <h1 className="text-xl mt-6 font-bold">
+            Here&apos;s why it&apos;s important:
+          </h1>
           <ol className="mt-6 list-decimal sm:!list-decimal">
             <li className="mb-9">
               Ensures accuracy and completeness.
