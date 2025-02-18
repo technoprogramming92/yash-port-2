@@ -79,7 +79,7 @@ function article2() {
           <p className="mt-6">Purpose of W-8 BEN form:</p>
 
           <ul className="mt-6 list-disc sm:!list-disc">
-            <li>Interest (including certain original issue discount (OID);</li>
+            <li>Interest (including certain original issue discount (OID));</li>
             <li>Dividends;</li>
             <li>Rents;</li>
             <li>Royalties;</li>
