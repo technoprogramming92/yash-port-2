@@ -78,24 +78,24 @@ const Footer2 = () => {
             <h4 className="text-lg font-semibold mb-4">Services</h4>
             <ul>
               <li>
-                <a href="/services" className="hover:underline">
+                <Link href="/services" className="hover:underline">
                   Tax Consulting
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/services" className="hover:underline">
+                <Link href="/services" className="hover:underline">
                   Tax Preparation
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/services" className="hover:underline">
+                <Link href="/services" className="hover:underline">
                   Tax Filing
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/services" className="hover:underline">
+                <Link href="/services" className="hover:underline">
                   Solve IRS Issues
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
