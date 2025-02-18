@@ -40,7 +40,7 @@ function article3() {
         <meta property="og:image" content="" />
         <meta name="og:email" content="eayashshah@gmail.com" />
         <meta name="og:phone_number" content="+91 8000 315213" />
-        <meta name="og:url" content="https://www.eayashshah.com/" />
+        <meta name="og:url" content="https://www.eayashshah.com/article3" />
         <meta name="twitter:card" content="" />
         <meta name="twitter:site" content="" />
         <meta name="twitter:creator" content="" />
