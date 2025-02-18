@@ -3,6 +3,7 @@ import Layout from "@/components/Layout";
 import AnimatedText from "@/components/AnimatedText";
 import Image from "next/image";
 import Link from "next/link";
+import article5 from "../../public/images/articles/tax-article-5.png";
 // import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 import Head from "next/head";
@@ -37,7 +38,7 @@ function article5() {
           name="og:description"
           content="It offers an organized checklist, ensuring that all applicable income, deductions, and credits are recorded correctly. Reduces the risk of missing important tax-saving opportunities."
         />
-        <meta property="og:image" content="" />
+        <meta property="og:image" src={article5} />
         <meta name="og:email" content="eayashshah@gmail.com" />
         <meta name="og:phone_number" content="+91 8000 315213" />
         <meta name="og:url" content="https://www.eayashshah.com/article5" />

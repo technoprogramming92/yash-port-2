@@ -41,7 +41,7 @@ export default function Home() {
           name="og:description"
           content="Get expert tax preparation and consulting in NYC and Brooklyn with EA Yash Shah. Affordable, professional, and hassle-free services!"
         />
-        <meta property="og:image" content="" />
+        <meta property="og:image" src={profilePic} />
         <meta name="og:email" content="eayashshah@gmail.com" />
         <meta name="og:phone_number" content="+91 8000 315213" />
         <meta name="og:url" content="https://www.eayashshah.com/" />
@@ -120,23 +120,100 @@ export default function Home() {
             />
           </div>
           <p className="text-[#eb6e00] text-center font-bold">
-            People also search for :{" "}
+            People also search for :
           </p>
           <p className="text-justify">
-            Independent business tax preparers near new york city | Affordable
-            independent business tax preparers near new york | Cheap independent
-            business tax preparers near new york | Free independent business tax
-            preparers near new york | Best independent business tax preparers
-            near new york | Tax consultant New York | Tax and accounting
-            services | Tax preparation NYC | Tax preparation brooklyn | Tax
-            consultant brooklyn | tax return us | ea agent | enrolled agent new
-            york | enrolled agent brooklyn | Independent business tax preparers
-            near brooklyn city | Affordable independent business tax preparers
-            near brooklyn | Cheap independent business tax preparers near
-            brooklyn | Free independent business tax preparers near brooklyn |
-            Best independent business tax preparers brookllyn | enrolled agent
-            near me | nyc tax return | brooklyn tax return | certified enrolled
-            agent
+            <Link href="/about" className="hover:underline">
+              Independent business tax preparers near new york city
+            </Link>
+            |
+            <Link href="/contact" className="hover:underline">
+              Affordable independent business tax preparers near new york
+            </Link>
+            |
+            <Link href="/services" className="hover:underline">
+              Cheap independent business tax preparers near new york
+            </Link>
+            |
+            <Link href="/articles" className="hover:underline">
+              Free independent business tax preparers near new york
+            </Link>
+            |
+            <Link href="/article1" className="hover:underline">
+              Best independent business tax preparers near new york
+            </Link>{" "}
+            |
+            <Link href="/article2" className="hover:underline">
+              Tax consultant New York
+            </Link>{" "}
+            |
+            <Link href="/article3" className="hover:underline">
+              Tax and accounting services
+            </Link>{" "}
+            |
+            <Link href="/article4" className="hover:underline">
+              Tax preparation NYC
+            </Link>{" "}
+            |
+            <Link href="/article5" className="hover:underline">
+              Tax preparation brooklyn
+            </Link>{" "}
+            |
+            <Link href="/about" className="hover:underline">
+              Tax consultant brooklyn
+            </Link>{" "}
+            |
+            <Link href="/contact" className="hover:underline">
+              tax return us
+            </Link>{" "}
+            |
+            <Link href="/about" className="hover:underline">
+              ea agent
+            </Link>{" "}
+            |
+            <Link href="/contact" className="hover:underline">
+              enrolled agent new york
+            </Link>{" "}
+            |
+            <Link href="/articles" className="hover:underline">
+              enrolled agent brooklyn
+            </Link>{" "}
+            |
+            <Link href="/article1" className="hover:underline">
+              Independent business tax preparers near brooklyn city
+            </Link>{" "}
+            |
+            <Link href="/articles" className="hover:underline">
+              Affordable independent business tax preparers near brooklyn
+            </Link>{" "}
+            |
+            <Link href="/article1" className="hover:underline">
+              Cheap independent business tax preparers near brooklyn
+            </Link>{" "}
+            |
+            <Link href="/article2" className="hover:underline">
+              Free independent business tax preparers near brooklyn
+            </Link>{" "}
+            |
+            <Link href="/article3" className="hover:underline">
+              Best independent business tax preparers brookllyn
+            </Link>{" "}
+            |
+            <Link href="/article2" className="hover:underline">
+              enrolled agent near me
+            </Link>{" "}
+            |
+            <Link href="/article3" className="hover:underline">
+              nyc tax return
+            </Link>{" "}
+            |
+            <Link href="/article4" className="hover:underline">
+              brooklyn tax return
+            </Link>{" "}
+            |
+            <Link href="/article4" className="hover:underline">
+              certified enrolled agent
+            </Link>
           </p>
         </Layout>
         {/* <HireMe /> */}

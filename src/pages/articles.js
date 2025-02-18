@@ -41,7 +41,7 @@ function articles() {
           name="og:description"
           content="Get the latest tax tips and resources, including expert advice on US tax return filing, tax planning, and professional services."
         />
-        <meta property="og:image" content="" />
+        <meta property="og:image" src="" />
         <meta name="og:email" content="eayashshah@gmail.com" />
         <meta name="og:phone_number" content="+91 8000 315213" />
         <meta name="og:url" content="https://www.eayashshah.com/articles" />

@@ -1,6 +1,7 @@
 import Head from "next/head";
 import AnimatedText from "@/components/AnimatedText";
 import Layout from "@/components/Layout";
+import Link from "next/link";
 import Image from "next/image";
 import profilePic from "../../public/images/profile/yash_about.png";
 import { AnimatedNumbers } from "@/components/AnimatedNumbers";
@@ -39,7 +40,7 @@ function about() {
           name="og:description"
           content="EA Yash Shah provides certified tax consulting and IRS form assistance, including 1040, 5472, 1120, and more. Trusted tax services near you."
         />
-        <meta property="og:image" content="" />
+        <meta property="og:image" src={profilePic} />
         <meta name="og:email" content="eayashshah@gmail.com" />
         <meta name="og:phone_number" content="+91 8000 315213" />
         <meta name="og:url" content="https://www.eayashshah.com/about" />
@@ -139,12 +140,90 @@ function about() {
             People also search for :{" "}
           </p>
           <p className="text-justify">
-            form 1065 form, form 1065 instructions | what is 1099s form | irs
-            form 6765 | 80ttb deduction for senior citizens | sec 80ttb of
-            income tax act | Form W-4 | w 8ben e instructions | form 990 | 1040
-            form | tax paper 1040 | 5471 form | 1120 forms | 1065 form | 1040
-            form | irs form 1040 | 1040 schedule c | form 1040 instructions |
-            form 1040 tax return | 1040 tax document | form 5472 | fincen
+            <Link href="/services" className="hover:underline">
+              form 1065 form form 1065 instructions
+            </Link>{" "}
+            |
+            <Link href="/articles" className="hover:underline">
+              what is 1099s form
+            </Link>{" "}
+            |
+            <Link href="/services" className="hover:underline">
+              irs form 6765
+            </Link>{" "}
+            |
+            <Link href="/articles" className="hover:underline">
+              80ttb deduction for senior citizens
+            </Link>{" "}
+            |
+            <Link href="/article1" className="hover:underline">
+              sec 80ttb of income tax act
+            </Link>{" "}
+            |
+            <Link href="/article2" className="hover:underline">
+              Form W-4
+            </Link>{" "}
+            |
+            <Link href="/article1" className="hover:underline">
+              w 8ben e instructions
+            </Link>{" "}
+            |
+            <Link href="/article2" className="hover:underline">
+              form 990
+            </Link>{" "}
+            |
+            <Link href="/article3" className="hover:underline">
+              1040 form
+            </Link>{" "}
+            |
+            <Link href="/article4" className="hover:underline">
+              tax paper 1040
+            </Link>{" "}
+            |
+            <Link href="/article3" className="hover:underline">
+              5471 form
+            </Link>
+            |
+            <Link href="/article4" className="hover:underline">
+              1120 forms
+            </Link>
+            |
+            <Link href="/article5" className="hover:underline">
+              1065 form
+            </Link>
+            |
+            <Link href="/contact" className="hover:underline">
+              1040 form
+            </Link>
+            |
+            <Link href="/article5" className="hover:underline">
+              irs form 1040
+            </Link>
+            |
+            <Link href="/contact" className="hover:underline">
+              1040 schedule c
+            </Link>
+            |
+            <Link href="/services" className="hover:underline">
+              form 1040 instructions
+            </Link>
+            |
+            <Link href="/article1" className="hover:underline">
+              form 1040 tax return
+            </Link>
+            |
+            <Link href="/article2" className="hover:underline">
+              1040 tax document
+            </Link>
+            |
+            <Link href="/article3" className="hover:underline">
+              form 5472
+            </Link>
+            |
+            <Link href="/article5" className="hover:underline">
+              fincen
+            </Link>
+            |
           </p>
         </Layout>
       </main>

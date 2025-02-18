@@ -3,6 +3,7 @@ import Layout from "@/components/Layout";
 import AnimatedText from "@/components/AnimatedText";
 import Image from "next/image";
 import Link from "next/link";
+import article2 from "../../public/images/articles/tax-article-2.png";
 // import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 import Head from "next/head";
@@ -35,7 +36,7 @@ function article2() {
           name="og:description"
           content="Form W-8 BEN: Important to know about this for non-US residents who generate income from the USA."
         />
-        <meta property="og:image" content="" />
+        <meta property="og:image" src={article2} />
         <meta name="og:email" content="eayashshah@gmail.com" />
         <meta name="og:phone_number" content="+91 8000 315213" />
         <meta name="og:url" content="https://www.eayashshah.com/article2" />

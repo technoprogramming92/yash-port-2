@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import TransitionEffect from "@/components/TransitionEffect";
 import Layout from "@/components/Layout";
+import Link from "next/link";
 
 function contact() {
   return (
