@@ -138,6 +138,10 @@ function article2() {
               https://www.irs.gov/pub/irs-trty/india.pdf
             </Link>
           </p>
+          <br />
+          <br />
+          <br />
+          <br />
           <p className="text-[#eb6e00] text-center font-bold">
             People also search for :{" "}
           </p>

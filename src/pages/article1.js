@@ -172,13 +172,17 @@ function article1() {
               yashshahtaxfreelancer@gmail.com
             </Link>
           </p>
+          <br />
+          <br />
+          <br />
+          <br />
           <p className="text-[#eb6e00] text-center font-bold">
             People also search for :{" "}
           </p>
           <p className="text-justify">
             irs online payment | direct pay irs, irs payments direct pay | Form
             9465 Installment Agreement | How to fill out form 9465 installment
-            agreement | irs installment agreement form | online payment plans,
+            agreement | irs installment agreement form | online payment plans |
             irs payment plan online | paying taxes on a payment plan | How to
             apply for the Payment plans | Temporarily Delay Collection | Offer
             in Compromise (OIC) | what is form 433-f used for

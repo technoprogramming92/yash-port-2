@@ -142,6 +142,10 @@ function article3() {
             disregarded entity will be flowing in the owner’s personal tax
             return, he/she will be liable to pay self-employment taxes.
           </p>
+          <br />
+          <br />
+          <br />
+          <br />
           <p className="text-[#eb6e00] text-center font-bold">
             People also search for :{" "}
           </p>
