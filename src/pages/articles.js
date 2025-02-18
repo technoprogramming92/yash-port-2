@@ -100,13 +100,13 @@ function articles() {
               link="/article4"
               img={article4}
             />
-            <FeaturedArticle
+            {/* <FeaturedArticle
               title="Why is a tax organizer so important?"
               summary="A Tax Organizer is a valuable tool for both tax professionals and taxpayers, making the tax filing process more efficient, accurate, and stress-free."
               time="2 min read"
               link="/article5"
               img={article5}
-            />
+            /> */}
           </ul>
           {/* <h2 className="font-bold !text-[#f5f5f5] text-4xl w-full text-center my-16 mt-32">
             All Articles
