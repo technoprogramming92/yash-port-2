@@ -3,7 +3,7 @@ import Layout from "@/components/Layout";
 import AnimatedText from "@/components/AnimatedText";
 import Image from "next/image";
 import Link from "next/link";
-import article1 from "../../public/images/articles/tax-article-1.png";
+import article_1 from "../../public/images/articles/tax-article-1.jpg";
 // import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 import Head from "next/head";
@@ -38,7 +38,7 @@ function article1() {
           name="og:description"
           content="If you can’t pay your taxes, don’t panic - The IRS offers payment alternatives if taxpayers can’t pay what they owe in full.Think of me as your go-to tax season sidekick!"
         />
-        <meta property="og:image" src={article1} />
+        <meta property="og:image" src={article_1} />
         <meta name="og:email" content="eayashshah@gmail.com" />
         <meta name="og:phone_number" content="+91 8000 315213" />
         <meta name="og:url" content="https://www.eayashshah.com/article1" />
@@ -181,12 +181,57 @@ function article1() {
             People also search for :{" "}
           </p>
           <p className="text-justify">
-            irs online payment | direct pay irs, irs payments direct pay | Form
-            9465 Installment Agreement | How to fill out form 9465 installment
-            agreement | irs installment agreement form | online payment plans |
-            irs payment plan online | paying taxes on a payment plan | How to
-            apply for the Payment plans | Temporarily Delay Collection | Offer
-            in Compromise (OIC) | what is form 433-f used for
+            <Link href="/about" className="hover:underline">
+              irs online payment
+            </Link>{" "}
+            |
+            <Link href="/contact" className="hover:underline">
+              direct pay irs
+            </Link>{" "}
+            |{" "}
+            <Link href="/article1" className="hover:underline">
+              irs payments direct pay
+            </Link>{" "}
+            |{" "}
+            <Link href="/article2" className="hover:underline">
+              Form 9465 Installment Agreement
+            </Link>{" "}
+            |{" "}
+            <Link href="/article3" className="hover:underline">
+              How to fill out form 9465 installment agreement
+            </Link>{" "}
+            |{" "}
+            <Link href="/about" className="hover:underline">
+              irs installment agreement form
+            </Link>{" "}
+            |{" "}
+            <Link href="/contact" className="hover:underline">
+              online payment plans
+            </Link>{" "}
+            |{" "}
+            <Link href="/article1" className="hover:underline">
+              irs payment plan online
+            </Link>{" "}
+            |{" "}
+            <Link href="/article2" className="hover:underline">
+              paying taxes on a payment plan
+            </Link>{" "}
+            |{" "}
+            <Link href="/article3" className="hover:underline">
+              How to apply for the Payment plans
+            </Link>{" "}
+            |{" "}
+            <Link href="/about" className="hover:underline">
+              Temporarily Delay Collection
+            </Link>{" "}
+            |{" "}
+            <Link href="/contact" className="hover:underline">
+              Offer in Compromise (OIC)
+            </Link>{" "}
+            |{" "}
+            <Link href="/articles" className="hover:underline">
+              what is form 433-f used for
+            </Link>
           </p>
         </Layout>
       </main>

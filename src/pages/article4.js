@@ -3,7 +3,7 @@ import Layout from "@/components/Layout";
 import AnimatedText from "@/components/AnimatedText";
 import Image from "next/image";
 import Link from "next/link";
-import article4 from "../../public/images/articles/tax-article-4.png";
+import article_4 from "../../public/images/articles/tax-article-4.png";
 // import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 import Head from "next/head";
@@ -38,7 +38,7 @@ function article4() {
           name="og:description"
           content="Let's clear things up by making the distinction between : when to file an amended return and when to supersede the return"
         />
-        <meta property="og:image" src={article4} />
+        <meta property="og:image" src={article_4} />
         <meta name="og:email" content="eayashshah@gmail.com" />
         <meta name="og:phone_number" content="+91 8000 315213" />
         <meta name="og:url" content="https://www.eayashshah.com/article4" />

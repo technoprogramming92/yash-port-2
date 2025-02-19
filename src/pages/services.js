@@ -67,13 +67,57 @@ function services() {
             People also search for :{" "}
           </p>
           <p className="text-justify">
-            Individual tax preparation in brooklyn near me | Individual tax
-            preparation in nyc | tax preparation & filing | tax preparation &
-            filing near me | tax preparation & filing new york | corporate tax
-            filing 1120 1120-S | where to file your taxes for Form 1120-S |what
-            is form 1065 | how to file form 1065 | partnership tax returns form
-            1065 | bookkeeping & financial services in brooklyn new york |
-            global tax consultant | financial statement preparation
+            <Link href="/services" className="hover:underline">
+              Individual tax preparation in brooklyn near me
+            </Link>{" "}
+            |
+            <Link href="/articles" className="hover:underline">
+              Individual taxbpreparation in nyc
+            </Link>{" "}
+            |
+            <Link href="/article1" className="hover:underline">
+              tax preparation & filing
+            </Link>{" "}
+            |
+            <Link href="/article2" className="hover:underline">
+              tax preparation & filing near me
+            </Link>{" "}
+            |
+            <Link href="/article3" className="hover:underline">
+              tax preparation & filing new york
+            </Link>{" "}
+            |
+            <Link href="/article4" className="hover:underline">
+              corporate tax filing 1120 1120-S
+            </Link>{" "}
+            |
+            <Link href="/services" className="hover:underline">
+              where to file your taxes for Form 1120-S
+            </Link>{" "}
+            |
+            <Link href="/articles" className="hover:underline">
+              what is form 1065
+            </Link>{" "}
+            |
+            <Link href="/article1" className="hover:underline">
+              how to file form 1065
+            </Link>{" "}
+            |
+            <Link href="/article2" className="hover:underline">
+              partnership tax returns form 1065
+            </Link>{" "}
+            |
+            <Link href="/article3" className="hover:underline">
+              bookkeeping & financial services in brooklyn new york
+            </Link>{" "}
+            |
+            <Link href="/article4" className="hover:underline">
+              global tax consultant
+            </Link>{" "}
+            |
+            <Link href="/article5" className="hover:underline">
+              financial statement preparation
+            </Link>{" "}
           </p>
         </Layout>
       </main>
