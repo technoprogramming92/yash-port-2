@@ -176,10 +176,36 @@ function article5() {
             People also search for :{" "}
           </p>
           <p className="text-justify">
-            tax consultant near me | tax consultant new york | tax advisor near
-            me | tax services near me | consultant taxation | bookkeeping &
-            financial services in brooklyn new york | deductions | tax
-            deductions | tax season | income tax season
+            <Link href="/about" className="hover:underline">
+              tax consultant near me
+            </Link>
+            <Link href="/services" className="hover:underline">
+              tax consultant new york
+            </Link>
+            <Link href="/about" className="hover:underline">
+              tax advisor near me
+            </Link>
+            <Link href="/services" className="hover:underline">
+              tax services near me
+            </Link>
+            <Link href="/about" className="hover:underline">
+              consultant taxation
+            </Link>
+            <Link href="/services" className="hover:underline">
+              bookkeeping & financial services in brooklyn new york
+            </Link>
+            <Link href="/services" className="hover:underline">
+              deductions
+            </Link>
+            <Link href="/contact" className="hover:underline">
+              tax deductions
+            </Link>
+            <Link href="/services" className="hover:underline">
+              tax season{" "}
+            </Link>
+            <Link href="/contact" className="hover:underline">
+              income tax season
+            </Link>
           </p>
         </Layout>
       </main>

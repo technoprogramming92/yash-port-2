@@ -166,9 +166,29 @@ function article4() {
             People also search for :{" "}
           </p>
           <p className="text-justify">
-            amended tax return | when to file an amended return | when to
-            supersede the return | supersede the return | how to amend a tax
-            return | how to supersede the Return
+            <Link href="/services" className="hover:underline">
+              amended tax return
+            </Link>{" "}
+            |
+            <Link href="/services" className="hover:underline">
+              when to file an amended return
+            </Link>{" "}
+            |
+            <Link href="/articles" className="hover:underline">
+              when to supersede the return
+            </Link>{" "}
+            |
+            <Link href="/articles" className="hover:underline">
+              supersede the return
+            </Link>{" "}
+            |
+            <Link href="/contact" className="hover:underline">
+              how to amend a tax return
+            </Link>{" "}
+            |
+            <Link href="/contact" className="hover:underline">
+              how to supersede the Return
+            </Link>
           </p>
         </Layout>
       </main>

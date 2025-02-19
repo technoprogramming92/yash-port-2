@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Link from "next/link";
 import AnimatedText from "@/components/AnimatedText";
 import FeaturedArticle from "@/components/FeaturedArticle";
 import article1 from "../../public/images/articles/tax-article-1.jpg";
@@ -162,19 +163,157 @@ function articles() {
             People also search for :{" "}
           </p>
           <p className="text-justify">
-            Tax services | Tax tips | tax filing in NYC | tax filing in brooklyn
-            | tax planning | file us tax return online | us tax return | tax
-            return united states | Tax consultant New York | Tax consultant
-            brooklyn | irs enrolled agent | income tax in the united states |
-            taxation in the united states | taxes in the usa | what is ea | what
-            is an enrolled agent | tax consultant near me | tax advisor near me
-            | tax consultant | tax filing near me | tax assistance |
-            professional tax return filing | tax preparer | efile | return of
-            income | tax filing | tax season 2025 | tax planner |tax planner in
-            nyc | tax planner in brooklyn | tax prep services in nyc | tax
-            professional in nyc | tax professional in brooklyn | tax
-            professional | tax preparer in nyc | tax prep services in brooklyn |
-            tax preparer in brooklyn
+            <Link href="/services" className="hover:underline">
+              Tax services{" "}
+            </Link>
+            |
+            <Link href="/article1" className="hover:underline">
+              Tax tips{" "}
+            </Link>
+            |
+            <Link href="/article2" className="hover:underline">
+              tax filing in NYC{" "}
+            </Link>
+            |
+            <Link href="/article1" className="hover:underline">
+              tax filing in brooklyn
+            </Link>
+            |
+            <Link href="/article2" className="hover:underline">
+              tax planning
+            </Link>{" "}
+            |
+            <Link href="/article3" className="hover:underline">
+              tax filing in brooklyn
+            </Link>{" "}
+            |
+            <Link href="/article4" className="hover:underline">
+              file us tax return online
+            </Link>{" "}
+            |
+            <Link href="/article3" className="hover:underline">
+              us tax return
+            </Link>{" "}
+            |
+            <Link href="/article4" className="hover:underline">
+              tax return united states
+            </Link>{" "}
+            |
+            <Link href="/article3" className="hover:underline">
+              Tax consultant New York
+            </Link>{" "}
+            |
+            <Link href="/article4" className="hover:underline">
+              Tax consultant brooklyn
+            </Link>{" "}
+            |
+            <Link href="/article5" className="hover:underline">
+              irs enrolled agent
+            </Link>{" "}
+            |
+            <Link href="/contact" className="hover:underline">
+              income tax in the united states
+            </Link>{" "}
+            |
+            <Link href="/article5" className="hover:underline">
+              taxation in the united states
+            </Link>{" "}
+            |
+            <Link href="/contact" className="hover:underline">
+              taxes in the usa
+            </Link>{" "}
+            |
+            <Link href="/article5" className="hover:underline">
+              what is ea
+            </Link>{" "}
+            |
+            <Link href="/contact" className="hover:underline">
+              what is an enrolled agent
+            </Link>{" "}
+            |
+            <Link href="/article1" className="hover:underline">
+              tax consultant near me
+            </Link>{" "}
+            |
+            <Link href="/article2" className="hover:underline">
+              tax advisor near me
+            </Link>{" "}
+            |
+            <Link href="/article1" className="hover:underline">
+              tax consultant
+            </Link>{" "}
+            |
+            <Link href="/article2" className="hover:underline">
+              tax filing near me
+            </Link>{" "}
+            |
+            <Link href="/article3article1" className="hover:underline">
+              tax assistance
+            </Link>{" "}
+            |
+            <Link href="/article4article2" className="hover:underline">
+              professional tax return filing
+            </Link>{" "}
+            |
+            <Link href="/article3" className="hover:underline">
+              tax preparer
+            </Link>{" "}
+            |
+            <Link href="/article4" className="hover:underline">
+              efile
+            </Link>{" "}
+            |
+            <Link href="/article3" className="hover:underline">
+              return of income
+            </Link>{" "}
+            |
+            <Link href="/article4" className="hover:underline">
+              tax filing
+            </Link>{" "}
+            |
+            <Link href="/article5" className="hover:underline">
+              tax season 2025
+            </Link>{" "}
+            |
+            <Link href="/contact" className="hover:underline">
+              tax planner
+            </Link>{" "}
+            |
+            <Link href="/article5" className="hover:underline">
+              tax planner in nyc
+            </Link>{" "}
+            |
+            <Link href="/contact" className="hover:underline">
+              tax planner in brooklyn
+            </Link>{" "}
+            |
+            <Link href="/article5" className="hover:underline">
+              tax prep services in nyc
+            </Link>{" "}
+            |
+            <Link href="/contact" className="hover:underline">
+              tax professional in nyc
+            </Link>{" "}
+            |
+            <Link href="/about" className="hover:underline">
+              tax professional in brooklyn
+            </Link>{" "}
+            |
+            <Link href="/" className="hover:underline">
+              tax professional
+            </Link>{" "}
+            |
+            <Link href="/about" className="hover:underline">
+              tax preparer in nyc
+            </Link>{" "}
+            |
+            <Link href="/" className="hover:underline">
+              tax prep services in brooklyn
+            </Link>{" "}
+            |
+            <Link href="/about" className="hover:underline">
+              tax preparer in brooklyn
+            </Link>
           </p>
         </Layout>
       </main>

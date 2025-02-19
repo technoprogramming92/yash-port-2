@@ -147,10 +147,33 @@ function article2() {
             People also search for :{" "}
           </p>
           <p className="text-justify">
-            what is w 8ben form used for | Purpose of W-8 BEN form | who needs
-            to fill out form w-8ben | double taxation avoidance agreement
-            between india and usa | DTAA between India and US | US government
-            taxes non-residents | taxation for non-resident aliens
+            <Link href="/services" className="hover:underline">
+              what is w 8ben form used for
+            </Link>{" "}
+            |
+            <Link href="/services" className="hover:underline">
+              Purpose of W-8 BEN form
+            </Link>{" "}
+            |
+            <Link href="/services" className="hover:underline">
+              who needs to fill out form w-8ben
+            </Link>{" "}
+            |
+            <Link href="/services" className="hover:underline">
+              double taxation avoidance agreement between india and usa
+            </Link>{" "}
+            |
+            <Link href="/services" className="hover:underline">
+              DTAA between India and US
+            </Link>{" "}
+            |
+            <Link href="/services" className="hover:underline">
+              US government taxes non-residents
+            </Link>{" "}
+            |
+            <Link href="/services" className="hover:underline">
+              taxation for non-resident aliens
+            </Link>{" "}
           </p>
         </Layout>
       </main>

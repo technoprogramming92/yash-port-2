@@ -151,10 +151,41 @@ function article3() {
             People also search for :{" "}
           </p>
           <p className="text-justify">
-            What is Disregarded Entity? | What is Form 8832? | Who needs to file
-            Form 8832? | What is Form 2553? | Who needs to file Form 2553? | How
-            to calculate self-employment tax | self-employment taxes | federal
-            taxes | how to pay disregarded entity&apos;s federal taxes
+            <Link href="/services" className="hover:underline">
+              What is Disregarded Entity?
+            </Link>{" "}
+            |
+            <Link href="/services" className="hover:underline">
+              What is Form 8832?
+            </Link>{" "}
+            |
+            <Link href="/services" className="hover:underline">
+              Who needs to file Form 8832?
+            </Link>{" "}
+            |
+            <Link href="/services" className="hover:underline">
+              What is Form 2553?
+            </Link>{" "}
+            |
+            <Link href="/services" className="hover:underline">
+              Who needs to file Form 2553?
+            </Link>{" "}
+            |
+            <Link href="/services" className="hover:underline">
+              How to calculate self-employment tax
+            </Link>{" "}
+            |
+            <Link href="/services" className="hover:underline">
+              self-employment taxes
+            </Link>{" "}
+            |
+            <Link href="/services" className="hover:underline">
+              federal taxes
+            </Link>{" "}
+            |
+            <Link href="/services" className="hover:underline">
+              how to pay disregarded entity&apos;s federal taxes
+            </Link>
           </p>
         </Layout>
       </main>
