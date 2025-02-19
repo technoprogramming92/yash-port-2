@@ -131,7 +131,7 @@ function contact() {
               </button>
             </form>
           </div>
-          <div className="w-full mt-20 -mb-60">
+          <div className="w-full mt-20 mb-60">
             {/*
              */}
             <iframe
@@ -142,23 +142,78 @@ function contact() {
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
-          <br />
-          <br />
-          <br />
-          <br />
-          <p className="text-[#eb6e00] text-center font-bold">
-            People also search for :{" "}
-          </p>
-          <p className="text-justify">
-            tax services | tax service near me | tax preparer near me | tax
-            consultant near me | tax preparer in brooklyn | us tax consultation
-            | file us tax return online | tax season | tax season in us | get in
-            touch with an enrolled agent | Affordable tax filing assistance near
-            New York City | Experienced tax consultants for freelancers in
-            Brooklyn | Certified tax preparers near Brooklyn | Tax planning for
-            independent contractors in NYC | Tax planning for independent
-            contractors in brooklyn | what is an enrolled agent
-          </p>
+
+          <div className="mt-4">
+            <p className="text-[#eb6e00] text-center font-bold">
+              People also search for :{" "}
+            </p>
+            <p className="text-justify">
+              <Link href="/services" className="hover:underline">
+                tax services
+              </Link>{" "}
+              |
+              <Link href="/services" className="hover:underline">
+                tax service near me
+              </Link>{" "}
+              |
+              <Link href="/services" className="hover:underline">
+                tax preparer near me
+              </Link>{" "}
+              |
+              <Link href="/services" className="hover:underline">
+                tax consultant near me
+              </Link>{" "}
+              |
+              <Link href="/services" className="hover:underline">
+                tax preparer in brooklyn
+              </Link>{" "}
+              |
+              <Link href="/services" className="hover:underline">
+                us tax consultation{" "}
+              </Link>{" "}
+              |
+              <Link href="/services" className="hover:underline">
+                file us tax return online
+              </Link>{" "}
+              |
+              <Link href="/services" className="hover:underline">
+                tax season
+              </Link>{" "}
+              |
+              <Link href="/services" className="hover:underline">
+                tax season in us
+              </Link>{" "}
+              |
+              <Link href="/services" className="hover:underline">
+                get in touch with an enrolled agent
+              </Link>{" "}
+              |
+              <Link href="/services" className="hover:underline">
+                Affordable tax filing assistance near New York City
+              </Link>{" "}
+              |
+              <Link href="/services" className="hover:underline">
+                Experienced tax consultants for freelancers in Brooklyn
+              </Link>{" "}
+              |
+              <Link href="/services" className="hover:underline">
+                Certified tax preparers near Brooklyn{" "}
+              </Link>{" "}
+              |
+              <Link href="/services" className="hover:underline">
+                Tax planning for independent contractors in NYC
+              </Link>{" "}
+              |
+              <Link href="/services" className="hover:underline">
+                Tax planning for independent contractors in brooklyn
+              </Link>{" "}
+              |
+              <Link href="/services" className="hover:underline">
+                what is an enrolled agent
+              </Link>{" "}
+              |
+            </p>
+          </div>
         </Layout>
       </main>
     </>
