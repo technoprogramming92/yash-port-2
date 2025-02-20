@@ -44,7 +44,7 @@ function HomePageComp() {
         Stress-Free Tax Services, From Start to Finish When it comes to taxes, I
         provide an end-to-end solution so you can relax.
       </p>
-      <p class="w-[75%] sm:!w-[100%] sm:!text-justify mx-auto relative mt-12 font-medium md:text-base sm:!text-sm xs:text-xs text-xl sm:!px-1">
+      <p className="w-[75%] sm:!w-[100%] sm:!text-justify mx-auto relative mt-12 font-medium md:text-base sm:!text-sm xs:text-xs text-xl sm:!px-1">
         Here&apos;s how I make the process seamless and professional:
       </p>
 

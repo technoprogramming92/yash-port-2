@@ -173,6 +173,12 @@ function NavBar() {
               className="text-[#000000]"
               toggle={handleClick}
             />
+            <CustomMobileLink
+              href="/services"
+              title="Services"
+              className="text-[#000000]"
+              toggle={handleClick}
+            />
             {/* <CustomLink href="/updates" title="Tax Updates" className='text-[#000000]'/> */}
             <CustomMobileLink
               href="/articles"

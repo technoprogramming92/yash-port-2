@@ -8,6 +8,7 @@ import article2 from "../../public/images/articles/tax-article-2.jpg";
 import article3 from "../../public/images/articles/tax-article-3.jpg";
 import article4 from "../../public/images/articles/tax-article-4.png";
 import article5 from "../../public/images/articles/tax-article-5.png";
+import article6 from "../../public/images/articles/tax-article-6.png";
 import Layout from "@/components/Layout";
 import MiniArticle from "@/components/MiniArticle";
 import TransitionEffect from "@/components/TransitionEffect";
@@ -72,26 +73,22 @@ function articles() {
           />
           <ul className="!text-[#f5f5f5] grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
             <FeaturedArticle
-              title="What if you can't pay your taxes?"
-              summary="If you can’t pay your taxes, don’t panic - The IRS offers payment alternatives if taxpayers can’t pay what they owe in full. But remember one thing, to qualify for that plans, first of all you must have filed your tax return on time. Below are the Tax Payment options."
-              time="3 min read"
-              link="/article1"
-              img={article1}
+              title="IRS Form 8898: What It Is and Why It Matters"
+              summary="If you're moving to or from a U.S. territory like Puerto Rico
+            or Guam, you might need to file IRS Form 8898. But what exactly is
+            it, and why should you care? Let's break it down in simple
+            terms....."
+              time="2 min read"
+              link="/article6"
+              img={article6}
             />
 
             <FeaturedArticle
-              title="Form W-8 BEN: Important to know about this for non-US residents who generate income from USA."
-              summary="Generally US government taxes non-residents for income sourced out of USA at 30%. But if....."
-              time="9 min read"
-              link="/article2"
-              img={article2}
-            />
-            <FeaturedArticle
-              title="What is Disregarded Entity?"
-              summary="Disregarded entities are those business entities which are separated from its owners but everything of the disregarded entity flows through the owner for the US tax purposes. So, the disregarded entity is a pass-through entity only for the tax purpose."
-              time="9 min read"
-              link="/article3"
-              img={article3}
+              title="Why is a tax organizer so important?"
+              summary="A Tax Organizer is a valuable tool for both tax professionals and taxpayers, making the tax filing process more efficient, accurate, and stress-free."
+              time="2 min read"
+              link="/article5"
+              img={article5}
             />
 
             <FeaturedArticle
@@ -102,11 +99,27 @@ function articles() {
               img={article4}
             />
             <FeaturedArticle
-              title="Why is a tax organizer so important?"
-              summary="A Tax Organizer is a valuable tool for both tax professionals and taxpayers, making the tax filing process more efficient, accurate, and stress-free."
-              time="2 min read"
-              link="/article5"
-              img={article5}
+              title="What is Disregarded Entity?"
+              summary="Disregarded entities are those business entities which are separated from its owners but everything of the disregarded entity flows through the owner for the US tax purposes. So, the disregarded entity is a pass-through entity only for the tax purpose."
+              time="9 min read"
+              link="/article3"
+              img={article3}
+            />
+
+            <FeaturedArticle
+              title="Form W-8 BEN: Important to know about this for non-US residents who generate income from USA."
+              summary="Generally US government taxes non-residents for income sourced out of USA at 30%. But if....."
+              time="9 min read"
+              link="/article2"
+              img={article2}
+            />
+
+            <FeaturedArticle
+              title="What if you can't pay your taxes?"
+              summary="If you can’t pay your taxes, don’t panic - The IRS offers payment alternatives if taxpayers can’t pay what they owe in full. But remember one thing, to qualify for that plans, first of all you must have filed your tax return on time. Below are the Tax Payment options."
+              time="3 min read"
+              link="/article1"
+              img={article1}
             />
           </ul>
           {/* <h2 className="font-bold !text-[#f5f5f5] text-4xl w-full text-center my-16 mt-32">
