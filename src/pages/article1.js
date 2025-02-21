@@ -209,15 +209,15 @@ function article1() {
               online payment plans
             </Link>{" "}
             |{" "}
-            <Link href="/article1" className="hover:underline">
+            <Link href="/article4" className="hover:underline">
               irs payment plan online
             </Link>{" "}
             |{" "}
-            <Link href="/article2" className="hover:underline">
+            <Link href="/article5" className="hover:underline">
               paying taxes on a payment plan
             </Link>{" "}
             |{" "}
-            <Link href="/article3" className="hover:underline">
+            <Link href="/article6" className="hover:underline">
               How to apply for the Payment plans
             </Link>{" "}
             |{" "}

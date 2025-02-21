@@ -18,11 +18,11 @@ function article6() {
         </title>
         <meta
           name="description"
-          content="Let's clear things up by making the distinction between : when to file an amended return and when to supersede the return"
+          content="If you're relocating to or from a U.S. territory, you may be required to file IRS Form 8898. But what does this form entail, and why is it important? Let’s simplify it for you."
         />
         <meta
           name="keyword"
-          content="amended tax return, when to file an amended return, when to supersede the return, supersede the return"
+          content="What Is Form 8898?, IRS Form 8898, About Form 8898, importance of form 8898"
         />
         <meta name="robots" content="index,follow" />
         <meta name="contact" content="+91 8000 315213" />
@@ -32,13 +32,10 @@ function article6() {
         <meta name="geo.placename" content="United States" />
         <meta name="geo.placename" content="New York, United States" />
         <meta name="author" content="Yash Shah, eayashshah@gmail.com" />
-        <meta
-          name="og:title"
-          content="IRS Form 8898: What It Is and Why It Matters"
-        />
+        <meta name="og:title" content="What is IRS Form 8898 | EA Yash Shah" />
         <meta
           name="og:description"
-          content="Let's clear things up by making the distinction between : when to file an amended return and when to supersede the return"
+          content="If you're relocating to or from a U.S. territory, you may be required to file IRS Form 8898. But what does this form entail, and why is it important? Let’s simplify it for you."
         />
         <meta property="og:image" src={article_6} />
         <meta name="og:email" content="eayashshah@gmail.com" />
@@ -49,7 +46,7 @@ function article6() {
         <meta name="twitter:creator" content="" />
         <meta
           name="twitter:title"
-          content="IRS Form 8898: What It Is and Why It Matters"
+          content="What is IRS Form 8898 | EA Yash Shah"
         />
         <meta name="twitter:description" content="" />
         {/* on page seo ends  */}
@@ -186,31 +183,27 @@ function article6() {
           <br />
           <br />
           <p className="text-[#eb6e00] text-center font-bold">
-            People also search for :{" "}
+            People also search for :
           </p>
           <p className="text-justify">
             <Link href="/services" className="hover:underline">
-              amended tax return
-            </Link>{" "}
+              what is form 8898?
+            </Link>
             |
             <Link href="/services" className="hover:underline">
               when to file an amended return
-            </Link>{" "}
+            </Link>
             |
             <Link href="/articles" className="hover:underline">
-              when to supersede the return
-            </Link>{" "}
+              irs form 8898
+            </Link>
             |
             <Link href="/articles" className="hover:underline">
-              supersede the return
-            </Link>{" "}
+              about form 8898
+            </Link>
             |
             <Link href="/contact" className="hover:underline">
-              how to amend a tax return
-            </Link>{" "}
-            |
-            <Link href="/contact" className="hover:underline">
-              how to supersede the Return
+              importance of form 8898
             </Link>
           </p>
         </Layout>

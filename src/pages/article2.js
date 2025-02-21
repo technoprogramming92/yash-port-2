@@ -151,27 +151,27 @@ function article2() {
               what is w 8ben form used for
             </Link>{" "}
             |
-            <Link href="/services" className="hover:underline">
+            <Link href="/contact" className="hover:underline">
               Purpose of W-8 BEN form
             </Link>{" "}
             |
-            <Link href="/services" className="hover:underline">
+            <Link href="/article1" className="hover:underline">
               who needs to fill out form w-8ben
             </Link>{" "}
             |
-            <Link href="/services" className="hover:underline">
+            <Link href="/article3" className="hover:underline">
               double taxation avoidance agreement between india and usa
             </Link>{" "}
             |
-            <Link href="/services" className="hover:underline">
+            <Link href="/article4" className="hover:underline">
               DTAA between India and US
             </Link>{" "}
             |
-            <Link href="/services" className="hover:underline">
+            <Link href="/article5" className="hover:underline">
               US government taxes non-residents
             </Link>{" "}
             |
-            <Link href="/services" className="hover:underline">
+            <Link href="/article6" className="hover:underline">
               taxation for non-resident aliens
             </Link>{" "}
           </p>
