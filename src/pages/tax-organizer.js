@@ -12,7 +12,7 @@ function articles() {
   return (
     <>
       <Head>
-        <title>US Tax Planning & Filing Articles | EA Yash Shah</title>
+        <title>Tax Organizer | EA Yash Shah</title>
         <meta
           name="description"
           content="Get the latest tax tips and resources, including expert advice on US tax return filing, tax planning, and professional services."
@@ -74,10 +74,10 @@ function articles() {
           <h2 className="font-bold text-4xl mt-9 mb-6 w-full text-left md:text-6xl xs:text-4xl md:mb-5">
             Follow below steps to fill out and submit tax organizer
           </h2>
-          <ol className="list-decimal ml-8 sm:!ml-9 sm:!mb-7 mb-9">
+          <ol className="list-decimal ml-8 sm:!ml-8 sm:!mb-7 mb-9">
             <li>
               Download and Install Adobe Acrobat Reader
-              <ul className="list-disc ml-8 sm:!ml-9 sm:!mb-7 mb-9">
+              <ul className="list-disc ml-8 sm:!mb-7 mb-9">
                 <li>
                   <strong>Why?</strong> Our tax organizer is a fillable PDF
                   form. To properly open, fill, and save it, you&apos;ll need
