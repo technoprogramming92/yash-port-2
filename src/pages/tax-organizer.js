@@ -60,12 +60,12 @@ function articles() {
       <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden sm:!overflow-x-hidden">
         <Layout className="!p-10 !pt-1">
-          <div className="flex flex-row !space-x-2">
+          <div className="flex flex-row !space-x-2 mt-5 sm:!mt-7">
             <h2 className="font-bold text-4xl mt-9 mb-6 w-full text-left md:text-6xl xs:text-4xl md:mb-5">
               Tax Organizer Instructions
             </h2>
 
-            <button className="bg-transparent border rounded-3xl hover:bg-white hover:text-black duration-100">
+            <button className="bg-[#eb6e00] border rounded-3xl hover:bg-transparent text-white duration-100 font-semibold">
               <a href="/EYS Tax Organizer.pdf" download="EYS Tax Organizer">
                 Download Tax Organizer
               </a>
@@ -149,7 +149,7 @@ function articles() {
                   external link.
                 </li>
                 <li>
-                  <strong>Click &quot;Allow.&quot;</strong> This is necessary
+                  <strong>Click &quot;Allow&quot;</strong>. This is necessary
                   for the form to submit your data to our secure server.
                 </li>
                 <li>
