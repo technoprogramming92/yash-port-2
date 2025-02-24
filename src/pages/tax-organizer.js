@@ -74,10 +74,10 @@ function articles() {
           <h2 className="font-bold text-4xl mt-9 mb-6 w-full text-left md:text-6xl xs:text-4xl md:mb-5">
             Follow below steps to fill out and submit tax organizer
           </h2>
-          <ol className="list-decimal ml-8 sm:!ml-8 sm:!mb-7 mb-9">
+          <ol className="list-decimal ml-8 sm:!ml-4 sm:!mb-7 mb-9">
             <li>
               Download and Install Adobe Acrobat Reader
-              <ul className="list-disc ml-8 sm:!mb-7 mb-9">
+              <ul className="list-disc ml-5 sm:!mb-7 mb-9">
                 <li>
                   <strong>Why?</strong> Our tax organizer is a fillable PDF
                   form. To properly open, fill, and save it, you&apos;ll need
@@ -85,7 +85,7 @@ function articles() {
                 </li>
                 <li>
                   <strong>How</strong>:
-                  <ol className="list-decimal ml-8 sm:!ml-9 sm:!mb-7 mb-9">
+                  <ol className="list-decimal ml-8 sm:!ml-5 sm:!mb-7 mb-9">
                     <li>
                       Click on this link:{" "}
                       <a
@@ -110,7 +110,7 @@ function articles() {
             </li>
             <li>
               Download the Tax Organizer PDF
-              <ul className="list-disc ml-8 sm:!ml-9 sm:!mb-7 mb-9">
+              <ul className="list-disc ml-8 sm:!ml-4 sm:!mb-7 mb-9">
                 <li className="underline">
                   <a href="/EYS Tax Organizer.pdf" download="EYS Tax Organizer">
                     Click here and download tax organizer
@@ -121,7 +121,7 @@ function articles() {
             <li>Open the PDF with Adobe Acrobat Reader</li>
             <li className="mt-6">
               Fill Out the Tax Organizer Form
-              <ul className="list-disc ml-8 sm:!ml-9 sm:!mb-7 mb-9">
+              <ul className="list-disc ml-8 sm:!ml-4 sm:!mb-7 mb-9">
                 <li>
                   Carefully fill out all the required fields in the tax
                   organizer.
@@ -136,7 +136,7 @@ function articles() {
             </li>
             <li>
               Submit the Completed Form
-              <ul className="list-disc ml-8 sm:!ml-9 sm:!mb-7 mb-9">
+              <ul className="list-disc ml-8 sm:!ml-4 sm:!mb-7 mb-9">
                 <li>
                   Once you have completed the tax organizer, click the
                   <strong>&quot;Submit&quot;</strong> button located within the
