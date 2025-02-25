@@ -15,7 +15,7 @@ function contact() {
         />
         <meta
           name="keyword"
-          content="tax services,tax service near me,tax preparer near me,tax consultant near me, tax preparer in brooklyn,us tax consultation,file us tax return online,tax season,tax season in us, get in touch with an enrolled agent,Affordable tax filing assistance near New York City,Experienced tax consultants for freelancers in Brooklyn,Certified tax preparers near Brooklyn,Tax planning for independent contractors in NYC,Tax planning for independent contractors in brooklyn,what is an enrolled agent"
+          content="tax services,tax service near me,tax preparer near me,tax consultant near me, tax preparer in brooklyn,us tax consultation,file us tax return online,tax season,tax season in us, get in touch with an enrolled agent,Affordable tax filing assistance near New York City,Experienced tax consultants for freelancers in Brooklyn,Certified tax preparers near Brooklyn,Tax planning for independent contractors in NYC,Tax planning for independent contractors in brooklyn,what is an enrolled agent, tax advisor atlanta, tax filing florida, cpa in ohio"
         />
         <meta name="robots" content="index,follow" />
         <meta name="contact" content="+91 8000 315213" />
@@ -211,7 +211,17 @@ function contact() {
               <Link href="/services" className="hover:underline">
                 what is an enrolled agent
               </Link>{" "}
+              <Link href="/services" className="hover:underline">
+                tax advisor atlanta
+              </Link>{" "}
               |
+              <Link href="/services" className="hover:underline">
+                tax filing florida
+              </Link>{" "}
+              |
+              <Link href="/services" className="hover:underline">
+                cpa in ohio
+              </Link>{" "}
             </p>
           </div>
         </Layout>

@@ -20,7 +20,7 @@ function article4() {
         />
         <meta
           name="keyword"
-          content="amended tax return, when to file an amended return, when to supersede the return, supersede the return"
+          content="amended tax return, when to file an amended return, when to supersede the return, supersede the return, tax planning massachusetts, cpa chicago, tax planning illinois, tax services near delaware, licensed tax preparer oregon"
         />
         <meta name="robots" content="index,follow" />
         <meta name="contact" content="+91 8000 315213" />
@@ -188,6 +188,21 @@ function article4() {
             |
             <Link href="/contact" className="hover:underline">
               how to supersede the Return
+            </Link>
+            <Link href="/contact" className="hover:underline">
+              tax planning massachusetts
+            </Link>
+            <Link href="/contact" className="hover:underline">
+              cpa chicago
+            </Link>
+            <Link href="/contact" className="hover:underline">
+              tax planning illinois
+            </Link>
+            <Link href="/contact" className="hover:underline">
+              tax services near delaware
+            </Link>
+            <Link href="/contact" className="hover:underline">
+              licensed tax preparer oregon
             </Link>
           </p>
         </Layout>

@@ -20,7 +20,7 @@ function article5() {
         />
         <meta
           name="keyword"
-          content="tax consultant near me, tax consultant new york,  tax advisor near me, tax services near me, consultant taxation, bookkeeping & financial services in brooklyn new york, deductions, tax deductions, tax season, income tax season"
+          content="tax consultant near me, tax consultant new york,  tax advisor near me, tax services near me, consultant taxation, bookkeeping & financial services in brooklyn new york, deductions, tax deductions, tax season, income tax season, tax consultant california, tax advisor los angeles"
         />
         <meta name="robots" content="index,follow" />
         <meta name="contact" content="+91 8000 315213" />
@@ -205,6 +205,12 @@ function article5() {
             </Link>
             <Link href="/contact" className="hover:underline">
               income tax season
+            </Link>
+            <Link href="/services" className="hover:underline">
+              tax advisor los angeles
+            </Link>
+            <Link href="/contact" className="hover:underline">
+              tax consultant california
             </Link>
           </p>
         </Layout>
