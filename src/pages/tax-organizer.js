@@ -64,12 +64,11 @@ function articles() {
             <h2 className="font-bold text-4xl mt-9 mb-6 w-full text-left md:text-6xl xs:text-4xl md:mb-5">
               Tax Organizer Instructions
             </h2>
-
-            <button className="bg-[#eb6e00] border rounded-3xl hover:bg-transparent text-white duration-100 font-semibold">
-              <a href="/EYS Tax Organizer.pdf" download="EYS Tax Organizer">
+            <a href="/EYS Tax Organizer.pdf" download="EYS Tax Organizer">
+              <button className="bg-[#eb6e00] border rounded-xl hover:bg-transparent text-white duration-100 font-semibold">
                 Download Tax Organizer
-              </a>
-            </button>
+              </button>
+            </a>
           </div>
           <h2 className="font-bold text-4xl mt-9 mb-6 w-full text-left md:text-6xl xs:text-4xl md:mb-5">
             Follow below steps to fill out and submit tax organizer

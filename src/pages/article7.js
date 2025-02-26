@@ -80,7 +80,7 @@ function article7() {
             plugging numbers into a software program. But in reality, a tax
             preparer&apos;s role goes far beyond <strong>data entry</strong>.
             They serve as
-            <strong>trusted financial guides</strong>, ensuring compliance,
+            <strong> trusted financial guides</strong>, ensuring compliance,
             maximizing deductions, and helping individuals and businesses make
             informed tax decisions.
           </p>
@@ -92,7 +92,7 @@ function article7() {
           <ol className="mt-6 list-decimal sm:!list-decimal sm:!ml-9">
             <li className="mb-9">
               Understanding Complex Tax Laws
-              <p>
+              <p className="mt-3">
                 Tax laws change <strong>frequently</strong>, and a tax preparer
                 must stay updated on:
               </p>
@@ -109,7 +109,7 @@ function article7() {
             </li>
             <li className="mb-9">
               Gathering & Organizing Financial Information
-              <p>
+              <p className="mt-3">
                 A tax preparer helps clients collect and organize essential tax
                 documents like:
               </p>
@@ -126,12 +126,12 @@ function article7() {
 
             <li className="mb-9">
               Identifying Tax Savings & Deductions
-              <p>
+              <p className="mt-3">
                 Beyond just preparing returns, a tax preparer{" "}
                 <strong>analyses</strong> financial records to help clients
                 reduce tax liability by:
               </p>
-              <ul className="mt-6 list-disc sm:!list-disc">
+              <ul className="list-disc sm:!list-disc">
                 <li>
                   Applying tax credits (e.g., Child Tax Credit, Earned Income
                   Credit)
@@ -150,12 +150,12 @@ function article7() {
 
             <li className="mb-9">
               Handling Multi-State & Federal Tax Filings
-              <p>
+              <p className="mt-3">
                 For clients who{" "}
                 <strong>live or operate businesses in multiple states</strong>,
                 tax preparers:
               </p>
-              <ul className="mt-6 list-disc sm:!list-disc">
+              <ul className="list-disc sm:!list-disc">
                 <li>Determine tax obligations across states</li>
                 <li>File both federal and state tax returns</li>
                 <li>
@@ -174,11 +174,11 @@ function article7() {
 
             <li className="mb-9">
               E-Filing & Ensuring IRS Compliance
-              <p>
+              <p className="mt-3">
                 A tax preparer does more than just hit &quot;submit&quot; on a
                 tax return. They ensure:
               </p>
-              <ul className="mt-6 list-disc sm:!list-disc">
+              <ul className="list-disc sm:!list-disc">
                 <li>
                   The return meets <strong>IRS accuracy standards</strong>
                 </li>
@@ -199,11 +199,11 @@ function article7() {
 
             <li className="mb-9">
               Amending & Superseding Tax Returns
-              <p>
+              <p className="mt-3">
                 Mistakes happen, and tax preparers assist in fixing them
                 through:
               </p>
-              <ul className="mt-6 list-disc sm:!list-disc">
+              <ul className="list-disc sm:!list-disc">
                 <li>
                   <strong>Superseding returns</strong> – Correcting errors
                   before the deadline
@@ -221,12 +221,12 @@ function article7() {
             </li>
             <li>
               Year-Round Tax Planning & Advisory Services
-              <p>
+              <p className="mt-3">
                 Tax preparation{" "}
                 <strong>isn&apos;t just a once-a-year task</strong>. A good tax
                 preparer helps clients <strong>plan ahead</strong> by:
               </p>
-              <ul className="mt-6 list-disc sm:!list-disc">
+              <ul className="list-disc sm:!list-disc">
                 <li>Advising on estimated tax payments</li>
                 <li>
                   Helping businesses structure expenses for tax efficiency
@@ -249,7 +249,7 @@ function article7() {
             A tax preparer does <strong>so much more</strong> than enter numbers
             into a system. They are:
           </p>
-          <ul className="mt-6 list-disc sm:!list-disc sm:!ml-5">
+          <ul className="list-disc sm:!list-disc sm:!ml-5">
             <li>Tax strategists</li>
             <li>Financial advisors</li>
             <li>Compliance experts</li>
