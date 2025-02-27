@@ -37,7 +37,7 @@ function article6() {
           name="og:description"
           content="If you're relocating to or from a U.S. territory, you may be required to file IRS Form 8898. But what does this form entail, and why is it important? Let’s simplify it for you."
         />
-        <meta property="og:image" src={article_6} />
+        <meta property="og:image" content={article_6} />
         <meta name="og:email" content="eayashshah@gmail.com" />
         <meta name="og:phone_number" content="+91 8000 315213" />
         <meta name="og:url" content="https://www.eayashshah.com/article6" />
