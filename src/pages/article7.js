@@ -61,6 +61,8 @@ function article7() {
         <meta charset="utf-8" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="canonical" href="https://www.eayashshah.com/article7" />
       </Head>
       <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden sm:!overflow-x-hidden">
