@@ -18,7 +18,8 @@ function article7() {
         </title>
         <meta
           name="description"
-          content="When people think of a tax preparer, they often picture someone plugging numbers into a software program. But in reality, a tax preparer's role goes far beyond data entry. They serve as trusted financial guides, ensuring compliance, maximizing deductions, and helping individuals and businesses make informed tax decisions."
+          content="When people think of a tax preparer, they often picture someone
+            plugging numbers into a software program. But in reality....."
         />
         <meta
           name="keyword"
@@ -32,14 +33,14 @@ function article7() {
         <meta name="geo.placename" content="United States" />
         <meta name="geo.placename" content="New York, United States" />
         <meta name="author" content="Yash Shah, eayashshah@gmail.com" />
-        <meta property="og:type" content="article" />
         <meta
           name="og:title"
           content="Roles of a Tax Preparer: More Than Just Data Entry | EA Yash Shah"
         />
         <meta
           name="og:description"
-          content="When people think of a tax preparer, they often picture someone plugging numbers into a software program. But in reality, a tax preparer's role goes far beyond data entry. They serve as trusted financial guides, ensuring compliance, maximizing deductions, and helping individuals and businesses make informed tax decisions."
+          content="When people think of a tax preparer, they often picture someone
+            plugging numbers into a software program. But in reality...."
         />
         <meta
           property="og:image"
@@ -53,7 +54,7 @@ function article7() {
         <meta name="twitter:creator" content="" />
         <meta
           name="twitter:title"
-          content="Roles of a Tax Preparer: More Than Just Data Entry"
+          content="What is IRS Form 8898 | EA Yash Shah"
         />
         <meta name="twitter:description" content="" />
         {/* on page seo ends  */}
