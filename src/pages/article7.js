@@ -44,7 +44,7 @@ function article7() {
         />
         <meta
           property="og:image"
-          content="/images/articles/tax-article-7.png"
+          content="/images/articles/tax-article-6.png"
         />
         <meta name="og:email" content="eayashshah@gmail.com" />
         <meta name="og:phone_number" content="+91 8000 315213" />
