@@ -3,7 +3,7 @@ import Layout from "@/components/Layout";
 import AnimatedText from "@/components/AnimatedText";
 import Image from "next/image";
 import Link from "next/link";
-// import article_7 from "../../public/images/articles/tax-article-7.png";
+import article_7 from "../../public/images/articles/tax-article-7.png";
 // import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 import Head from "next/head";
@@ -40,7 +40,7 @@ function article7() {
           name="og:description"
           content="When people think of a tax preparer, they often picture someone plugging numbers into a software program. But in reality, a tax preparer's role goes far beyond data entry. They serve as trusted financial guides, ensuring compliance, maximizing deductions, and helping individuals and businesses make informed tax decisions."
         />
-        <meta name="og:image" src="/images/articles/tax-article-7.png" />
+        <meta property="og:image" src={article_7} />
         <meta name="og:email" content="eayashshah@gmail.com" />
         <meta name="og:phone_number" content="+91 8000 315213" />
         <meta name="og:url" content="https://www.eayashshah.com/article7" />
