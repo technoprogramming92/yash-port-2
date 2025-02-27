@@ -38,7 +38,10 @@ function article1() {
           name="og:description"
           content="If you can’t pay your taxes, don’t panic - The IRS offers payment alternatives if taxpayers can’t pay what they owe in full.Think of me as your go-to tax season sidekick!"
         />
-        <meta property="og:image" src={article_1} />
+        <meta
+          property="og:image"
+          content="/images/articles/tax-article-1.png"
+        />
         <meta name="og:email" content="eayashshah@gmail.com" />
         <meta name="og:phone_number" content="+91 8000 315213" />
         <meta name="og:url" content="https://www.eayashshah.com/article1" />
