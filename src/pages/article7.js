@@ -32,6 +32,7 @@ function article7() {
         <meta name="geo.placename" content="United States" />
         <meta name="geo.placename" content="New York, United States" />
         <meta name="author" content="Yash Shah, eayashshah@gmail.com" />
+        <meta property="og:type" content="article" />
         <meta
           name="og:title"
           content="Roles of a Tax Preparer: More Than Just Data Entry | EA Yash Shah"
