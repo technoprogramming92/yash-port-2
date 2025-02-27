@@ -73,13 +73,13 @@ function articles() {
             className="!text-[#f5f5f5] mb-16 pt-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <ul className="!text-[#f5f5f5] grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
-            <FeaturedArticle
+            {/* <FeaturedArticle
               title="Roles of a Tax Preparer: More Than Just Data Entry"
               summary="When people think of a tax preparer, they often picture someone plugging numbers into a software program. But in reality, a tax preparer's role goes far beyond data entry. They serve as trusted financial......."
               time="4 min read"
               link="/article7"
               img={article7}
-            />
+            /> */}
             <FeaturedArticle
               title="IRS Form 8898: What It Is and Why It Matters"
               summary="If you're moving to or from a U.S. territory like Puerto Rico
