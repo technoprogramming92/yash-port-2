@@ -70,7 +70,7 @@ function article7() {
           />
           <Image
             src="/images/articles/tax-article-7.png"
-            alt="Amend the Return or Supersede the Return? Let's Clear It Up!"
+            alt="Roles of a Tax Preparer: More Than Just Data Entry"
             className="w-full h-auto"
             layout="responsive"
             width={600} // Replace with the actual width of the image
