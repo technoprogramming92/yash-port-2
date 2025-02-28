@@ -208,6 +208,7 @@ function article6() {
             <Link href="/contact" className="hover:underline">
               importance of form 8898
             </Link>
+            |
             <Link href="/articles" className="hover:underline">
               tax advisor phoenix
             </Link>

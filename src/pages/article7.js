@@ -23,7 +23,7 @@ function article7() {
         />
         <meta
           name="keyword"
-          content="What Is Form 8898?, IRS Form 8898, About Form 8898, importance of form 8898, ohio enrolled agents, texas tax consultants, california enrolled agents, tax advisor phoenix"
+          content="tax laws, tax laws in usa, tax documents, w 2s form, how to get w2s, superseding returns, Financial advisors, certified financial planner, tax experts near me, tax consultant online, expert tax preparer"
         />
         <meta name="robots" content="index,follow" />
         <meta name="contact" content="+91 8000 315213" />
@@ -285,30 +285,47 @@ function article7() {
           </p>
           <p className="text-justify">
             <Link href="/services" className="hover:underline">
-              what is form 8898?
+              tax laws
             </Link>
             |
             <Link href="/services" className="hover:underline">
-              when to file an amended return
+              tax laws in usa
             </Link>
             |
             <Link href="/articles" className="hover:underline">
-              irs form 8898
+              tax documents
             </Link>
             |
             <Link href="/articles" className="hover:underline">
-              about form 8898
+              w 2s form
             </Link>
             |
             <Link href="/contact" className="hover:underline">
-              importance of form 8898
+              how to get w2s
             </Link>
+            |
             <Link href="/articles" className="hover:underline">
-              tax advisor phoenix
+              superseding returns
             </Link>
             |
             <Link href="/contact" className="hover:underline">
-              california enrolled agents
+              Financial advisors
+            </Link>
+            |
+            <Link href="/articles" className="hover:underline">
+              certified financial planner
+            </Link>
+            |
+            <Link href="/articles" className="hover:underline">
+              tax experts near me
+            </Link>
+            |
+            <Link href="/articles" className="hover:underline">
+              tax consultant online
+            </Link>
+            |
+            <Link href="/articles" className="hover:underline">
+              expert tax preparer
             </Link>
           </p>
         </Layout>
