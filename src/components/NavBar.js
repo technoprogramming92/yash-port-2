@@ -108,6 +108,11 @@ function NavBar() {
         </nav>
 
         <nav className="flex items-center justify-center flex-wrap">
+          <CustomLink
+            href="/tax-organizer"
+            title="Tax Organizer"
+            className="mr-4 text-[#f5f5f5]"
+          />
           <motion.a
             href="https://www.instagram.com/ea_yash_shah/"
             target={"_blank"}
@@ -190,6 +195,13 @@ function NavBar() {
             <CustomMobileLink
               href="/contact"
               title="Contact"
+              className="text-[#000000]"
+              toggle={handleClick}
+            />
+
+            <CustomMobileLink
+              href="/tax-organizer"
+              title="Tax Organizer"
               className="text-[#000000]"
               toggle={handleClick}
             />

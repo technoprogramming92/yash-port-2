@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 import profilePic from "../../public/images/profile/yash6.png";
 import AnimatedText from "../components/AnimatedText";
 import Link from "next/link";
-import { LinkArrow } from "@/components/Icons";
+import { LinkArrow, Download } from "@/components/Icons";
 import lightBulb from "../../public/images/profile/home doodle.png";
 import TransitionEffect from "@/components/TransitionEffect";
 import HomePageComp from "@/components/HomePageComp";
@@ -93,6 +93,7 @@ export default function Home() {
                 numbers into perfectly filed returns. Think of me as your go-to
                 tax season sidekick!
               </p>
+
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
                   href="/contact"
@@ -102,12 +103,14 @@ export default function Home() {
                   Contact
                   <LinkArrow className={"w-6 ml-1"} />
                 </Link>
-                {/* <Link
-                  href="mailto:yashshahtaxfreelancer@gmail.com"
-                  className="ml-4 text-lg font-medium capitalize text-[#f5f5f5] underline md:text-base"
+                <Link
+                  href="/tax-organizer"
+                  target="_blank"
+                  className="flex items-center bg-[#eb6e00] text-[#f5f5f5] ml-4 text-nowrap p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light  border-2 border-solid border-transparent hover:border-[#f5f5f5] md:p-2 md:px-4 md:text-base"
                 >
-                  Contact
-                </Link> */}
+                  Download Tax Organizer
+                  <Download className={"w-6 ml-1"} />
+                </Link>
               </div>
             </div>
           </div>

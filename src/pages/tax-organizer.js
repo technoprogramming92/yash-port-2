@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Link from "next/link";
 import AnimatedText from "@/components/AnimatedText";
-
+import { Download } from "../components/Icons";
 import Layout from "@/components/Layout";
 
 import TransitionEffect from "@/components/TransitionEffect";
@@ -65,9 +65,14 @@ function articles() {
               Tax Organizer Instructions
             </h2>
             <a href="/EYS Tax Organizer.pdf" download="EYS Tax Organizer">
-              <button className="bg-[#eb6e00] border rounded-xl hover:bg-transparent text-white duration-100 font-semibold">
+              <button
+                href="/EYS Tax Organizer.pdf"
+                download="EYS Tax Organizer"
+                className="flex items-center bg-[#eb6e00] text-[#f5f5f5] text-nowrap p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light  border-2 border-solid border-transparent hover:border-[#f5f5f5] md:p-2 md:px-4 md:text-base"
+              >
                 Download Tax Organizer
-              </button>
+                <Download className={"w-6 ml-1"} />
+              </button>{" "}
             </a>
           </div>
           <h2 className="font-bold text-4xl mt-9 mb-6 w-full text-left md:text-6xl xs:text-4xl md:mb-5">
