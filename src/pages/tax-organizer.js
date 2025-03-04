@@ -60,22 +60,23 @@ function articles() {
       <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden sm:!overflow-x-hidden">
         <Layout className="!p-10 !pt-1">
-          <div className="flex flex-row !space-x-2 mt-5 sm:!mt-7">
-            <h2 className="font-bold text-4xl mt-9 mb-6 w-full text-left md:text-6xl xs:text-4xl md:mb-5">
+          <div className="flex flex-row items-center !space-x-2 mt-5 sm:!mt-7 sm:!flex-col-reverse sm:items-center sm:justify-center sm:text-center">
+            <h2 className="font-bold text-4xl sm:!text-2xl w-full text-left sm:text-center sm:!mt-2 md:text-6xl xs:text-4xl">
               Tax Organizer Instructions
             </h2>
             <a href="/EYS Tax Organizer.pdf" download="EYS Tax Organizer">
               <button
-                href="/EYS Tax Organizer.pdf"
-                download="EYS Tax Organizer"
-                className="flex items-center bg-[#eb6e00] text-[#f5f5f5] text-nowrap p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light  border-2 border-solid border-transparent hover:border-[#f5f5f5] md:p-2 md:px-4 md:text-base"
+                className="flex items-center bg-[#eb6e00] text-[#f5f5f5] text-nowrap p-1 px-6 sm:px-3 rounded-lg text-lg font-semibold 
+      hover:bg-light border-2 border-solid border-transparent hover:border-[#f5f5f5] md:p-2 md:px-4 md:text-base 
+      sm:text-base sm:mt-4 sm:mx-auto sm:w-auto sm:justify-center"
               >
                 Download Tax Organizer
-                <Download className={"w-6 ml-1"} />
-              </button>{" "}
+                <Download className="w-6 ml-1 md:w-6 md:h-6 fill-current text-white" />
+              </button>
             </a>
           </div>
-          <h2 className="font-bold text-4xl mt-9 mb-6 w-full text-left md:text-6xl xs:text-4xl md:mb-5">
+
+          <h2 className="font-bold text-4xl mt-9 mb-6 w-full text-left md:text-6xl xs:text-4xl md:mb-5 sm:!text-2xl">
             Follow below steps to fill out and submit tax organizer
           </h2>
           <ol className="list-decimal ml-8 sm:!ml-4 sm:!mb-7 mb-9">
