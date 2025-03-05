@@ -20,7 +20,7 @@ function article7() {
         />
         <meta
           name="keyword"
-          content="tax laws, tax laws in usa, tax documents, w 2s form, how to get w2s, superseding returns, Financial advisors, certified financial planner, tax experts near me, tax consultant online, expert tax preparer"
+          content="tax benefits, tax deductions, tax benefit for ira contribution, payroll deductions, deductions"
         />
         <meta name="robots" content="index,follow" />
         <meta name="contact" content="+91 8000 315213" />
@@ -198,47 +198,23 @@ function article7() {
           </p>
           <p className="text-justify">
             <Link href="/services" className="hover:underline">
-              tax laws
+              tax benefits
             </Link>
             |
-            <Link href="/services" className="hover:underline">
-              tax laws in usa
+            <Link href="/article6" className="hover:underline">
+              tax deductions
+            </Link>
+            |
+            <Link href="/article7" className="hover:underline">
+              tax benefit for ira contribution
             </Link>
             |
             <Link href="/articles" className="hover:underline">
-              tax documents
-            </Link>
-            |
-            <Link href="/articles" className="hover:underline">
-              w 2s form
+              payroll deductions
             </Link>
             |
             <Link href="/contact" className="hover:underline">
-              how to get w2s
-            </Link>
-            |
-            <Link href="/articles" className="hover:underline">
-              superseding returns
-            </Link>
-            |
-            <Link href="/contact" className="hover:underline">
-              Financial advisors
-            </Link>
-            |
-            <Link href="/articles" className="hover:underline">
-              certified financial planner
-            </Link>
-            |
-            <Link href="/articles" className="hover:underline">
-              tax experts near me
-            </Link>
-            |
-            <Link href="/articles" className="hover:underline">
-              tax consultant online
-            </Link>
-            |
-            <Link href="/articles" className="hover:underline">
-              expert tax preparer
+              deductions
             </Link>
           </p>
         </Layout>
