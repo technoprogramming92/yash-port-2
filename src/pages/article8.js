@@ -16,8 +16,7 @@ function article7() {
         <title>Maximizing Gift Deductions for Employees | EA Yash Shah</title>
         <meta
           name="description"
-          content="When people think of a tax preparer, they often picture someone
-            plugging numbers into a software program. But in reality....."
+          content="The IRS allows businesses to deduct up to $25 per employee per year for gifts. While this may seem like a small amount, there are legal ways to ........"
         />
         <meta
           name="keyword"
@@ -37,8 +36,7 @@ function article7() {
         />
         <meta
           name="og:description"
-          content="When people think of a tax preparer, they often picture someone
-            plugging numbers into a software program. But in reality...."
+          content="The IRS allows businesses to deduct up to $25 per employee per year for gifts. While this may seem like a small amount, there are legal ways to ........"
         />
         <meta
           property="og:image"
@@ -46,7 +44,7 @@ function article7() {
         />
         <meta name="og:email" content="eayashshah@gmail.com" />
         <meta name="og:phone_number" content="+91 8000 315213" />
-        <meta name="og:url" content="https://www.eayashshah.com/article7" />
+        <meta name="og:url" content="https://www.eayashshah.com/article8" />
         <meta name="twitter:card" content="" />
         <meta name="twitter:site" content="" />
         <meta name="twitter:creator" content="" />
@@ -57,7 +55,7 @@ function article7() {
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link rel="canonical" href="https://www.eayashshah.com/article7" />
+        <link rel="canonical" href="https://www.eayashshah.com/article8" />
       </Head>
       <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden sm:!overflow-x-hidden">
