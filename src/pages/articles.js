@@ -11,6 +11,7 @@ import article5 from "../../public/images/articles/tax-article-5.png";
 import article6 from "../../public/images/articles/tax-article-6.png";
 import article7 from "../../public/images/articles/tax-article-7.png";
 import article8 from "../../public/images/articles/tax-article-8.png";
+import article9 from "../../public/images/articles/tax-article-9.png";
 import Layout from "@/components/Layout";
 import MiniArticle from "@/components/MiniArticle";
 import TransitionEffect from "@/components/TransitionEffect";
@@ -74,6 +75,13 @@ function articles() {
             className="!text-[#f5f5f5] mb-16 pt-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <ul className="!text-[#f5f5f5] grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
+            <FeaturedArticle
+              title="Tax Management is more than just filing: It's a Year-Round Strategy"
+              summary="When most people think about taxes, they think about a deadline — scrambling to file before April 15th. But managing taxes......."
+              time="2 min read"
+              link="/article9"
+              img={article9}
+            />
             <FeaturedArticle
               title="Maximizing Gift Deductions for Employees While Staying IRS Compliant"
               summary="The IRS allows businesses to deduct up to $25 per employee per year for gifts. While this may seem like a small amount, there are legal ways to ........"

@@ -8,7 +8,7 @@ import Link from "next/link";
 import TransitionEffect from "@/components/TransitionEffect";
 import Head from "next/head";
 
-function article7() {
+function article8() {
   //   const FramerImage = motion(Image);
   return (
     <>
@@ -223,4 +223,4 @@ function article7() {
   );
 }
 
-export default article7;
+export default article8;
