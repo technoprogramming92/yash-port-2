@@ -3,7 +3,7 @@ import Layout from "@/components/Layout";
 import AnimatedText from "@/components/AnimatedText";
 import Image from "next/image";
 import Link from "next/link";
-// import article_7 from "../../public/images/articles/tax-article-7.png";
+import article_9 from "../../public/images/articles/tax-article-9.png";
 // import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 import Head from "next/head";
@@ -16,11 +16,11 @@ function article9() {
         <title>Tax Management is more than just filing | EA Yash Shah</title>
         <meta
           name="description"
-          content="When most people think about taxes, they think about a deadline — scrambling to file before April 15th. But managing taxes....."
+          content="Tax planning is a proactive approach that can help you maximize deductions, reduce your overall tax liability, and keep more of what you earn."
         />
         <meta
           name="keyword"
-          content="tax benefits, tax deductions, tax benefit for ira contribution, payroll deductions, deductions"
+          content="401k taxes, 401 k and ira, tax benefit for ira contribution, year round tax planning, tax planning, 401k, retirement planning, ira investment nyc, principal financial retirement"
         />
         <meta name="robots" content="index,follow" />
         <meta name="contact" content="+91 8000 315213" />
@@ -36,7 +36,7 @@ function article9() {
         />
         <meta
           name="og:description"
-          content="When most people think about taxes, they think about a deadline — scrambling to file before April 15th. But managing taxes......."
+          content="Tax planning is a proactive approach that can help you maximize deductions, reduce your overall tax liability, and keep more of what you earn."
         />
         <meta
           property="og:image"
@@ -48,7 +48,10 @@ function article9() {
         <meta name="twitter:card" content="" />
         <meta name="twitter:site" content="" />
         <meta name="twitter:creator" content="" />
-        <meta name="twitter:title" content="" />
+        <meta
+          name="twitter:title"
+          content="Tax Management is more than just filing | EA Yash Shah"
+        />
         <meta name="twitter:description" content="" />
         {/* on page seo ends  */}
         <meta charset="utf-8" />
@@ -154,11 +157,11 @@ function article9() {
           </p>
           <p className="text-justify">
             <Link href="/services" className="hover:underline">
-              tax benefits
+              principal financial retirement
             </Link>
             |
             <Link href="/article6" className="hover:underline">
-              tax deductions
+              retirement planning
             </Link>
             |
             <Link href="/article7" className="hover:underline">
@@ -166,11 +169,14 @@ function article9() {
             </Link>
             |
             <Link href="/articles" className="hover:underline">
-              payroll deductions
+              ira investment nyc
             </Link>
             |
             <Link href="/contact" className="hover:underline">
-              deductions
+              tax benefit for ira contribution
+            </Link>
+            <Link href="/contact" className="hover:underline">
+              401 k and ira
             </Link>
           </p>
         </Layout>
