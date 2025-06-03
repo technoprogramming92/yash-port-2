@@ -79,7 +79,7 @@ function article10() {
             Why CPAs Need a Tech-Savvy Partner—Not Just a Marketing Agency
           </h1>
           <p className="mt-6 sm:text-justify">
-           When it comes to building a strong online presence, CPAs often turn to digital marketing agencies. It sounds like the logical choice—right? After all, they handle your website, social media, ads, and maybe some SEO. But there's a catch: most marketing agencies don't understand the language of finance or the real workflow behind tax and accounting services.
+           When it comes to building a strong online presence, CPAs often turn to digital marketing agencies. It sounds like the logical choice—right? After all, they handle your website, social media, ads, and maybe some SEO. But there&apos;s a catch: most marketing agencies don&apos;t understand the language of finance or the real workflow behind tax and accounting services.
           </p>
           <p className="mt-6 sm:text-justify">
             That&apos;s where the difference lies.
@@ -136,7 +136,7 @@ Whether it&apos;s helping you automate document collection, streamline onboardin
            Long-Term Value &gt; Short-Term Clicks
           </h1>
           <p className="mt-6 sm:text-justify">
-           Marketing isn't just about today&apos;s engagement. It&apos;s about building credibility, trust, and visibility that lasts. That&apos;s what clients look for in their CPA, and that&apos;s what your digital strategy should reflect.
+           Marketing isn&apos;t just about today&apos;s engagement. It&apos;s about building credibility, trust, and visibility that lasts. That&apos;s what clients look for in their CPA, and that&apos;s what your digital strategy should reflect.
           </p>
 
           <p className="mt-6 sm:text-justify">
@@ -146,7 +146,7 @@ Whether it&apos;s helping you automate document collection, streamline onboardin
             Your firm deserves more than a pretty website or generic social media posts. You deserve a partner who knows why your work matters, and how to make that visible to the right audience—with the right tools.
           </p>
             <p className="mt-6 sm:text-justify">
-                If you're a CPA or EA looking to level up your digital presence with someone who truly gets your industry—let&apos;s talk.
+                If you&apos;re a CPA or EA looking to level up your digital presence with someone who truly gets your industry—let&apos;s talk.
             </p>
           <br />
           <br />
