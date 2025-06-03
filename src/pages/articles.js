@@ -12,6 +12,7 @@ import article6 from "../../public/images/articles/tax-article-6.png";
 import article7 from "../../public/images/articles/tax-article-7.png";
 import article8 from "../../public/images/articles/tax-article-8.png";
 import article9 from "../../public/images/articles/tax-article-9.png";
+import article10 from "../../public/images/articles/tax-article-10.jpeg";
 import Layout from "@/components/Layout";
 import MiniArticle from "@/components/MiniArticle";
 import TransitionEffect from "@/components/TransitionEffect";
@@ -75,6 +76,13 @@ function articles() {
             className="!text-[#f5f5f5] mb-16 pt-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <ul className="!text-[#f5f5f5] grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
+             <FeaturedArticle
+              title="Why CPAs Need a Tech-Savvy Partner—Not Just a Marketing Agency?"
+              summary="When it comes to building a strong online presence, CPAs often turn to digital marketing agencies. It sounds like the logical choice—right?"
+              time="2 min read"
+              link="/article10"
+              img={article10}
+            />
             <FeaturedArticle
               title="Tax Management is more than just filing: It's a Year-Round Strategy"
               summary="When most people think about taxes, they think about a deadline — scrambling to file before April 15th. But managing taxes......."
