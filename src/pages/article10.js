@@ -82,20 +82,20 @@ function article10() {
            When it comes to building a strong online presence, CPAs often turn to digital marketing agencies. It sounds like the logical choice—right? After all, they handle your website, social media, ads, and maybe some SEO. But there's a catch: most marketing agencies don't understand the language of finance or the real workflow behind tax and accounting services.
           </p>
           <p className="mt-6 sm:text-justify">
-            That’s where the difference lies.
+            That&apos;s where the difference lies.
           </p>
           <p className="mt-6 sm:text-justify">
-CPAs don’t just need a marketing team. They need a <strong>tech-savvy partner who truly understands their world.</strong>
+CPAs don&apos;t just need a marketing team. They need a <strong>tech-savvy partner who truly understands their world.</strong>
           </p>
           <h1 className="text-xl mt-6 font-bold">
            Most Agencies Sell. We Understand.
           </h1>
  <p className="mt-6 sm:text-justify">
-A typical agency will tell you how to “get more traffic” or “run Facebook ads.” But if they don’t understand what a 1040 is, or why tax season is a crunch time, how can they market your services effectively?
+A typical agency will tell you how to “get more traffic” or “run Facebook ads.” But if they don&apos;t understand what a 1040 is, or why tax season is a crunch time, how can they market your services effectively?
           </p>
 
            <p className="mt-6 sm:text-justify">
-As someone who’s spent years in the tax industry—and now works with IT and digital media—I bridge both sides. I know how your busy season works, how client communication flows, and why efficiency matters just as much as branding.
+As someone who&apos;s spent years in the tax industry—and now works with IT and digital media—I bridge both sides. I know how your busy season works, how client communication flows, and why efficiency matters just as much as branding.
           </p>
 
            <h1 className="text-xl mt-6 font-bold">
@@ -106,13 +106,13 @@ Most CPAs need three key things from a digital partner:
           </p>
           <ul className="list-disc sm:!list-disc sm:!ml-5">
             <li>
-             A website that speaks your client’s language (not vague marketing buzzwords)
+             A website that speaks your client&apos;s language (not vague marketing buzzwords)
             </li>
             <li>
               Tools that make your work smoother (think: digital tax organizers, onboarding forms, portals)
             </li>
             <li>
-              A content strategy that builds trust (because your clients aren’t looking to be sold—they’re looking for answers)
+              A content strategy that builds trust (because your clients aren&apos;t looking to be sold—they&apos;re looking for answers)
             </li>
           </ul>
 
@@ -124,29 +124,29 @@ A tech-savvy partner will build you a smart one—with secure integrations, clie
             From Process to Platform
           </h1>
                <p className="mt-6 sm:text-justify">
-You know how stressful it is to juggle client follow-ups, document requests, and return reviews. We know it too—because we’ve lived it. That’s why we don’t just design things to look good—we design them to work for your firm’s real needs.
+You know how stressful it is to juggle client follow-ups, document requests, and return reviews. We know it too—because we&apos;ve lived it. That&apos;s why we don&apos;t just design things to look good—we design them to work for your firm&apos;s real needs.
 
           </p>
 
             <p className="mt-6 sm:text-justify">
 
-Whether it’s helping you automate document collection, streamline onboarding, or schedule seasonal campaigns, we build systems around your workflow—not the other way around.
+Whether it&apos;s helping you automate document collection, streamline onboarding, or schedule seasonal campaigns, we build systems around your workflow—not the other way around.
           </p>
           <h1 className="text-xl mt-6 font-bold">
            Long-Term Value &gt; Short-Term Clicks
           </h1>
           <p className="mt-6 sm:text-justify">
-           Marketing isn't just about today’s engagement. It’s about building credibility, trust, and visibility that lasts. That’s what clients look for in their CPA, and that’s what your digital strategy should reflect.
+           Marketing isn't just about today&apos;s engagement. It&apos;s about building credibility, trust, and visibility that lasts. That&apos;s what clients look for in their CPA, and that&apos;s what your digital strategy should reflect.
           </p>
 
           <p className="mt-6 sm:text-justify">
-           With a tech-driven partner, you’re not just chasing trends—you’re building digital assets that grow with your practice.
+           With a tech-driven partner, you&apos;re not just chasing trends—you&apos;re building digital assets that grow with your practice.
           </p>
           <p className="mt-6 sm:text-justify">
             Your firm deserves more than a pretty website or generic social media posts. You deserve a partner who knows why your work matters, and how to make that visible to the right audience—with the right tools.
           </p>
             <p className="mt-6 sm:text-justify">
-                If you're a CPA or EA looking to level up your digital presence with someone who truly gets your industry—let’s talk.
+                If you're a CPA or EA looking to level up your digital presence with someone who truly gets your industry—let&apos;s talk.
             </p>
           <br />
           <br />
