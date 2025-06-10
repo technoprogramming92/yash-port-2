@@ -84,7 +84,7 @@ function article11() {
             You&apos;re a master of the tax code. Your clients trust you with
             their most complex financial challenges. But let&apos;s be
             honest—where do your best new clients really come from? If the
-            answer is "mostly referrals," you&apos;re leaving growth up to
+            answer is &quot;mostly referrals,&quot; you&apos;re leaving growth up to
             chance.
           </p>
           <p className="mt-6 sm:text-justify">
@@ -125,8 +125,8 @@ function article11() {
             <li>
               <strong>A Clear Next Step:</strong> Don&apos;t make them search.
               Guide them with obvious buttons like{" "}
-              <strong>"Schedule Your Consultation"</strong>
-              or <strong>"Get a Free Quote."</strong>
+              <strong>&quot;Schedule Your Consultation&quot;</strong>
+              or <strong>&quot;Get a Free Quote.&quot;</strong>
             </li>
           </ul>
 
@@ -135,7 +135,7 @@ function article11() {
           </h1>
           <p className="mt-6 sm:text-justify">
             What happens when a business owner in your town urgently Googles,
-            "accountant for my small business"?
+            &quot;accountant for my small business&quot;?
           </p>
 
           <p className="mt-6 sm:text-justify">
@@ -173,7 +173,7 @@ function article11() {
           <ul className="list-disc sm:!list-disc sm:!ml-5">
             <li>
               <strong>Google Ads: </strong>Pay to be the #1 result when someone
-              searches for "tax help." You are meeting clients at the exact
+              searches for &quot;tax help.&quot; You are meeting clients at the exact
               moment they need you. It&apos;s a direct line to people with a
               problem you can solve.
             </li>
