@@ -14,7 +14,7 @@ function article11() {
     <>
       <Head>
         <title>
-          Beyond Referrals: A CPA's Plan for Online Growth | EA Yash Shah
+          Beyond Referrals: A CPA&apos;s Plan for Online Growth | EA Yash Shah
         </title>
         <meta
           name="description"
@@ -84,14 +84,15 @@ function article11() {
             You&apos;re a master of the tax code. Your clients trust you with
             their most complex financial challenges. But let&apos;s be
             honest—where do your best new clients really come from? If the
-            answer is "mostly referrals," you're leaving growth up to chance.
+            answer is "mostly referrals," you&apos;re leaving growth up to
+            chance.
           </p>
           <p className="mt-6 sm:text-justify">
-            For the past seven years, I've lived in the US tax world, just like
-            you. But for the last two, I've also been running my own IT company.
-            I sit at the intersection of tax and tech, and I see a massive
-            opportunity for CPAs and EAs to move from passively waiting for
-            clients to actively building a system that brings them to you.
+            For the past seven years, I&apos;ve lived in the US tax world, just
+            like you. But for the last two, I&apos;ve also been running my own
+            IT company. I sit at the intersection of tax and tech, and I see a
+            massive opportunity for CPAs and EAs to move from passively waiting
+            for clients to actively building a system that brings them to you.
           </p>
           <p className="mt-6 sm:text-justify">
             It&apos;s time to build your client-attraction machine. Here&apos;s
@@ -130,7 +131,7 @@ function article11() {
           </ul>
 
           <h1 className="text-xl mt-6 font-bold">
-            2. Get Found When It Matters Most (That's SEO)
+            2. Get Found When It Matters Most (That&apos;s SEO)
           </h1>
           <p className="mt-6 sm:text-justify">
             What happens when a business owner in your town urgently Googles,
@@ -139,7 +140,7 @@ function article11() {
 
           <p className="mt-6 sm:text-justify">
             SEO (Search Engine Optimization) is simply the art of making sure{" "}
-            <strong>you</strong> are the top result they see. It's about
+            <strong>you</strong> are the top result they see. It&apos;s about
             building your digital reputation so Google trusts you as the best
             answer. Forget the complex jargon; focus on two things:
           </p>
@@ -179,15 +180,15 @@ function article11() {
             <li>
               <strong>LinkedIn Ads: </strong>This is where it gets surgical.
               Want to work exclusively with doctors or tech founders? LinkedIn
-              lets you show your ads only to them. It's the most efficient way
-              to reach high-value, niche clients.
+              lets you show your ads only to them. It&apos;s the most efficient
+              way to reach high-value, niche clients.
             </li>
           </ul>
 
           <h1 className="text-xl mt-6 font-bold">You Are in Control</h1>
           <p className="mt-6 sm:text-justify">
             Moving from a referral-only model to a digital strategy puts you
-            back in the driver's seat of your firm's growth.
+            back in the driver&apos;s seat of your firm&apos;s growth.
           </p>
 
           <p className="mt-6 sm:text-justify">
