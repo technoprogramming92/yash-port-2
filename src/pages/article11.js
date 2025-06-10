@@ -156,7 +156,7 @@ function article11() {
             <li>
               <strong>Answer Questions, Get Clients: </strong> Write simple blog
               posts that answer the questions you hear every day. A post titled,
-              "When Should My Business Become an S-Corp?" will attract exactly
+              &quot;When Should My Business Become an S-Corp?&quot; will attract exactly
               the kind of high-value client you want.
             </li>
           </ul>
