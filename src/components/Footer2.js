@@ -138,8 +138,9 @@ const Footer2 = () => {
 
         <div className="border-t border-gray-700 pt-8 text-center text-sm !pb-3">
           <p>
-            &copy; 2025 EYS All rights reserved. | Created by{" "}
-            <a href="https://www.ignitax.com">IGNITAX</a>
+            &copy; 2025 EYS All rights reserved. | Design and developed by
+            Uncore Digital{" "}
+            <a href="https://uncoredigital.com/">UNCORE DIGITAL</a>
           </p>
         </div>
       </div>

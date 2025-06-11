@@ -11,11 +11,11 @@ function Footer() {
           Build With{" "}
           <span className="text-[#eb6e00] text-2xl px-1">&#9825;</span>by&nbsp;
           <Link
-            href="https://ignitax.com/"
+            href="https://uncoredigital.com/"
             className="underline underline-offset-2"
             target="_blank"
           >
-            IGNITAX
+            UNCORE DIGITAL
           </Link>
         </div>
         <Link

@@ -22,7 +22,7 @@ function article11() {
         />
         <meta
           name="keyword"
-          content="1040, digital tax organizers, tax season, digital strategy, CPA, tech partner"
+          content="tax help, digital ads for cpa, cpa online growth, cpa website, cpa google ads, social media cpa"
         />
         <meta name="robots" content="index,follow" />
         <meta name="contact" content="+91 8000 315213" />
@@ -84,8 +84,8 @@ function article11() {
             You&apos;re a master of the tax code. Your clients trust you with
             their most complex financial challenges. But let&apos;s be
             honest—where do your best new clients really come from? If the
-            answer is &quot;mostly referrals,&quot; you&apos;re leaving growth up to
-            chance.
+            answer is &quot;mostly referrals,&quot; you&apos;re leaving growth
+            up to chance.
           </p>
           <p className="mt-6 sm:text-justify">
             For the past seven years, I&apos;ve lived in the US tax world, just
@@ -156,8 +156,8 @@ function article11() {
             <li>
               <strong>Answer Questions, Get Clients: </strong> Write simple blog
               posts that answer the questions you hear every day. A post titled,
-              &quot;When Should My Business Become an S-Corp?&quot; will attract exactly
-              the kind of high-value client you want.
+              &quot;When Should My Business Become an S-Corp?&quot; will attract
+              exactly the kind of high-value client you want.
             </li>
           </ul>
 
@@ -173,9 +173,9 @@ function article11() {
           <ul className="list-disc sm:!list-disc sm:!ml-5">
             <li>
               <strong>Google Ads: </strong>Pay to be the #1 result when someone
-              searches for &quot;tax help.&quot; You are meeting clients at the exact
-              moment they need you. It&apos;s a direct line to people with a
-              problem you can solve.
+              searches for &quot;tax help.&quot; You are meeting clients at the
+              exact moment they need you. It&apos;s a direct line to people with
+              a problem you can solve.
             </li>
             <li>
               <strong>LinkedIn Ads: </strong>This is where it gets surgical.
@@ -213,27 +213,27 @@ function article11() {
           </p>
           <p className="text-justify">
             <Link href="/services" className="hover:underline">
-              1040
+              tax help
             </Link>
             |
-            <Link href="/article6" className="hover:underline">
-              digital tax organizers
+            <Link href="/article9" className="hover:underline">
+              digital ads for cpa
             </Link>
             |
-            <Link href="/article7" className="hover:underline">
-              tax season
+            <Link href="/article10" className="hover:underline">
+              cpa online growth
             </Link>
             |
             <Link href="/articles" className="hover:underline">
-              digital strategy
+              cpa website
             </Link>
             |
             <Link href="/contact" className="hover:underline">
-              CPA
+              cpa google ads
             </Link>
             |
             <Link href="/contact" className="hover:underline">
-              Tech Partner
+              social media cpa
             </Link>
           </p>
         </Layout>
