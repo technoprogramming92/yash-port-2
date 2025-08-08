@@ -51,12 +51,12 @@ function Experience() {
         />
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
-          <Details
+          {/* <Details
             position="Chief Financial Officer"
             company="@Uncore Digital"
             time="Apr 2025 - Present"
             work="As CFO, I oversee the financial strategy, budgeting, and growth planning at Uncore Digital, while also bridging the gap between tech execution and business operations."
-          />
+          /> */}
           <Details
             position="Tax Senior"
             company="@Escalon"
